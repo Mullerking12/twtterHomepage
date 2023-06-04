@@ -1,0 +1,1542 @@
+
+
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 50%;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
+
+
+
+body {
+    width: 100%;
+overflow-x: hidden;
+font-family: "Schibsted Grotesk";
+}
+
+#icon-section {
+   overflow-y: scroll;
+   overflow-x: hidden;
+   overscroll-behavior-y: contain;
+   scroll-behavior: smooth;
+   scroll-margin-block: ;
+    position: fixed;
+    z-index: 1;
+    width: 280px;
+   background-color: #fff;
+    border-right: #E7E7E8  1px solid;
+  
+  
+}
+
+
+#ic {
+    font-size: 23px;
+    text-align: center;
+    color: #0f1419;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+}
+
+
+
+.the-icon {
+    
+padding-bottom: 10px;
+padding-right: 10px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+button.the-icon {
+    border: none;
+    background-color: #fff;
+    display: block;
+    margin-left: 20px;
+
+}
+
+.the-icon:hover {
+    background-color: #E7E7E8;
+
+
+}
+
+
+button span {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 100%;
+margin-right: 15px;
+}
+
+.profile-pic:hover {
+    background-color: #E7E7E8;
+}
+
+.fa-brands {
+    color: #1d9bf0;
+}
+/*twitter blue**/
+.the-icon #fa-brands {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#tweet-home {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+
+
+#first-tweet {
+
+font-size: 18px;
+
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 215px;
+    height: 50px;
+    margin-left: 15px;
+    font-weight: 700;
+    background-color: #1A8CD8;
+}
+
+hr {
+    font-size: 1px;
+    color: #536471;
+    
+
+}
+
+#name-below {
+    margin-right: 20px;
+    line-height: 0.5;
+font-size: 14px;
+}
+
+#bot:hover {
+    background-color: #E7E7E7;
+    border-radius: 40px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#bot {
+    line-height: normal;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+   padding-left: 20px;
+   padding-top: 10px;
+   cursor: pointer;
+  
+}
+
+.name {
+    font-family: "TwitterChirp", "-apple-system", "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   left: 90px;
+    padding-top: 5px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 14px;
+}
+
+.username {
+    
+
+    margin-right: 20px;
+padding-top: 30px;
+    color: #536471;
+    opacity: #0f1419;
+
+
+}
+
+#before-elip i:hover {
+    background: none;
+}
+
+
+
+/**Second Section**/
+#second-section {
+   margin-left: 279px;
+    position: relative;
+    padding: 0;
+    border-right: #E7E7E8 1px solid;
+ overscroll-behavior-y: contain;
+    outline-offset: -60px;
+    
+}
+
+.top-home {
+    font-size: 22px;
+    color: #0f1419;
+    margin: 15px 5px 15px 5px;
+cursor: pointer;
+}
+
+.two-headings {
+    font-size: 18px;
+cursor: pointer;
+    text-align: center;
+
+    padding-top: 13px;
+    color: #536471;
+}
+
+#for-you:hover {
+    background-color: #E7E7E8;
+}
+
+
+#following:hover {
+    background-color: #E7E7E8;
+}
+#blue-un {
+text-decoration: underline;
+text-decoration-line: underline;
+text-decoration-color: #1D9BF0;
+text-decoration-thickness: 3px;
+text-underline-offset: 17px;
+font-weight: bold;
+color: #0f1419;
+
+}
+#for-you {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+font-weight: bold;
+}
+#following {
+    height: 50px;
+    width: 100%;
+    padding: 0; 
+}
+.two-headings:hover {
+    color: #0f1419;
+
+}
+
+
+
+#tweet {
+    display: block;
+    color: #536471;
+    margin-left: 20px;
+
+    font-size: 22px;
+
+}
+
+.input-text {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-icons {
+    margin-left: 70px;
+   
+    color: #1D9BF0;
+    font-size: 18px;
+}
+
+.search-icons i {
+
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+.search-icons i:hover {
+    background-color: #E9F5FD;
+}
+
+#dot {
+    color: #8ECDF7;
+}
+
+#dot:hover {
+    background-color: white;
+
+}
+
+
+
+#top-tweet {
+
+    width: 90px;
+    border-radius: 50px;
+    font-weight: 700;
+    
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #8ECDF7;
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 49%;
+    right: 366px;
+    background-color: #fff;
+    opacity: 98%; 
+    padding: 0;  
+}
+#for-fol {
+    border-bottom: #E7E7E8 1px solid;
+}
+
+
+
+#whole-search {
+    margin-top: 120px;
+margin-left: 2px;
+cursor: pointer;
+
+}
+
+hr {
+    overflow: hidden;
+}
+
+
+
+.carrying-all {
+
+    width: 100%;
+    margin-top: 5px;
+}
+
+.show-tweet p {
+    font-family: "TwitterChirp", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", Arial, sans-serif;
+    text-align: center;
+    color: #1d9bf0;
+    font-size: 18px;
+   
+    line-height: normal;
+
+}
+
+.show-tweet {
+    background-color: #fff;
+    padding: 10px;
+  border-top: #E7E7E8 1px solid;
+  border-bottom: #E7E7E8 1px solid;
+    box-sizing: border-box;
+    height: 50px;
+   margin: auto;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+display: none;
+
+}
+
+
+
+.dropdown-menu {
+    border-radius: 20px;
+    height: 200px;
+    width: 270px;
+    font-size: 18px;
+    shadow: #E7E7E8 20px;
+
+
+}
+
+#second {
+    line-height: 0.8
+}
+
+.dropdown-item {
+    margin: ;
+}
+
+#mark {
+    text-align: left;
+    color: #1D9BF0;
+    margin-left: 100px;
+}
+
+.dropdown-item .fa-solid {
+    color: #fff;
+}
+
+#map {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1A8CD8;
+    line-height: 2.2;
+    padding-left: 11px;
+
+}
+
+#circle {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 2.2;
+    padding-left: 9px;
+
+
+
+}
+
+.edit-link {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-decoration: underline;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+
+.edit-link:hover {
+    background-color: #ccc;
+}
+
+#the-drop .btn {
+    color: #1D9BF0;
+    letter-spacing: normal;
+    line-height: 0.4;
+    font-size: 14;
+    text-align: center;
+    border: #536471 1px solid;
+    height: 20px;
+
+
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+#the-drop {
+
+    
+    
+    background-color: #fff;
+}
+
+#the-drop .btn:hover {
+    border: #1A8CD8 1px solid;
+    background-color: #E8F5FD;
+}
+
+h1.dropdown-item {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h1.dropdown-item:hover {
+    background: none;
+}
+
+a.dropdown-item {
+    padding-left: 20px;
+
+}
+
+#topper {
+    padding-top: 10px;
+
+
+}
+
+#second {
+    padding-top: 15px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+a.dropdown-item:hover {
+    overflow-x: hidden;
+}
+
+a span {
+    margin-left: 10px;
+
+}
+
+a p {
+    margin-left: 10px;
+    line-height: 2.5;
+
+}
+
+.left-part {
+    display: inline;
+}
+.show-tweet {
+    background-color: #fffff;
+}
+.show-tweet:hover {
+    background-color: #f7f7f7;
+}
+
+#the-hb {
+   padding-top: 15px;
+   margin-right: 1px;
+   margin-left: 1px;
+   background-color: #fff;
+   border-top: #E7E7E8 1px solid;
+}
+
+#halal-username {
+
+    margin-left: 20px;
+    line-height: 0.8;
+    cursor: pointer;
+    padding-right: 0;
+    padding-top: 10px;
+
+}
+.top-pic {
+    width: 55px;
+    border-radius: 60%;
+    
+}
+
+.top-pic:hover {
+    background-color: #E7E7E8;
+}
+#halal-username span {
+    
+        color: #536471;
+    
+}
+#time:hover {
+   text-decoration: underline;
+
+}
+#halal-username b:hover {
+text-decoration-line: underline;
+}
+#ellipsis {
+    color: #536471;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2;
+    margin-right: 10px;
+   
+}
+
+#ellipsis:hover {
+    background-color: #e1eef6;
+    color: #1d9bf0;
+
+
+}
+
+/***second dropdown***/
+
+
+#cons .fa-solid {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1A8CD8;
+    line-height: 2.2;
+    padding-left: 11px;
+}
+
+#second-drop .dropdown-menu {
+    border-radius: 20px;
+    height: 310px;
+    width: 350px;
+    font-size: 18px;
+    shadow: #E7E7E8 20px;
+
+
+}
+
+#second-drop {
+    display: none;
+    z-index: 10;
+    transition-delay: 250ms;
+}
+
+
+#cons p {
+    color: #536471;
+    font-size: 16px;
+}
+#cons p:hover {
+background: none;
+
+}
+#cons a {
+    height: 70px;
+    padding-top: 15px;
+    
+}
+#below-drop {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#mark.fa-solid{
+    background: none;
+}
+
+#second-drop .btn {
+    color: #1D9BF0;
+    letter-spacing: normal;
+
+    font-size: 14;
+    text-align: center;
+    padding-right: 5px;
+
+
+
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+#second-drop .btn:focus {
+    border: none;
+
+}
+
+#second-drop .btn:hover {
+    background-color: #E8F5FD;
+}
+
+#cons {
+    font-size: 15px;
+    line-height: 0.2;
+}
+
+#cons h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+#cons h3:hover {
+    background: none;
+}
+
+
+.dropdown {
+    display: none;
+}
+.screenshot {
+    width: 270px;
+    height: 310px;
+
+}
+#thread-pic {
+width: 540px;
+
+}
+.main-thread {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 40px;
+    padding-left: 40px;
+    border-left: #E7E7E8 3px solid;
+}
+#first-pict img {
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-left: #E7E7E8 1px solid;
+border-top:#E7E7E8 1px solid;
+border-bottom: #E7E7E8 1px solid;
+margin: 0;
+padding: 0;
+}
+#second-pict img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: #E7E7E8 1px solid;
+border-top:#E7E7E8 1px solid;
+border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+    padding: 0;
+}
+.comment-icons {
+   margin-top: 5px;
+    font-size: 16px;
+    color: #536471;
+    text-align: start;
+    line-height: 16px;
+    font-family: "Schibsted Grotesk";
+}
+.comment-icons i {
+    padding-top: 4;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2.5;
+   
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+
+i .fa-solid {
+    font-size: 17px;
+}
+i .fa-regular {
+    font-size: 17px;
+}
+.comment-icons span {
+    margin-left: 5px;
+    font-weight: 400;
+    font-family: "TwitterChirp", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", Arial, sans-serif;
+}
+i#like-46 {
+    margin-left: 0;
+}
+#the-hb p {
+    color: #0f1419;
+}
+#the-hb:hover {
+    background-color: #f7f7f7;
+    
+   
+}
+#comment-section {
+margin-left: 25px;
+cursor: pointer;
+
+}
+
+
+#reply:hover {
+color: #2aa1f1;
+background-color: #e1eef6;
+
+}
+#retweet:hover {
+  background-color: #def1eb;
+  color: #16bf87;
+
+}
+#like:hover {
+background-color: #f7e0eb;
+color: #f796e3;
+}
+#view:hover {
+background-color: #e1eef6;
+color: #67baf2;
+}
+.c-reply:hover {
+    color: #2aa1f1;
+}
+.c-retweet:hover {
+    color: #16bf87;
+}
+.c-like:hover {
+    color: #f796e3;
+}
+.c-view:hover {
+    color: #67baf2;
+}
+
+
+.halal-bottom {
+  width: 35px; 
+  height: 40px;
+  border-radius: 100%;
+  padding-top: 5px;
+  margin-right: 6px;
+}
+.thread {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2aa1f1;
+    
+}
+#show-this {
+    color: #2aa1f1;
+    text-align: left; 
+    cursor: pointer;  
+   margin-right: 35px;
+   padding-top: 10px;
+}
+
+#thread-end:hover {
+background-color: #efefef;
+}
+#thread-end {
+    margin-left: 1px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+/**Second tweet**/
+#second-tweet {
+    border-top: #E7E7E8 1px solid;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#second-tweet:hover {
+    background-color: #f7f7f7;   
+}
+#second-ellip {
+    margin-right: 10px;
+}
+#yaba-tweet {
+    z-index: 1;
+    width: 100%;
+}
+.hakimi-pic {
+   height: 400px;
+   width: 530px;
+  border-radius: 20px;
+  margin-left: 75px;
+  padding-right: 0;
+}
+#second-comment {
+    margin-left: 65px;
+}
+/**video**/
+.thread-vid {
+    border-radius: 20px;
+    margin-left: 80px;
+    border: #E7E7E8 1px solid;
+}
+
+
+#third-tweet {
+    padding-left: 15px;
+    padding-top: 10px;
+    border-top: #E7E7E8 1px solid;
+    margin-right: 1px;
+    
+}
+#third-tweet:hover {
+    background-color: #f7f7f7;
+}
+
+   
+    
+
+
+
+/**the tooltip**/
+  
+.tooltip {
+    position: absolute;
+
+   
+  }
+  
+  #tweet-halal .tooltiptext {
+    visibility: hidden;
+    width: 335px;
+    background-color: #ffff;
+   box-shadow: 5px #fff;
+   border: #E7E7E8 0.8px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Schibsted Grotesk";
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 18%;
+    left: 5%;
+    margin-left: -60px;
+
+  }
+  
+  #tweet-halal:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 500ms;
+  }
+  .tool1 .tool{
+    text-align: right;
+    border: 1px solid;
+    height: 35px;
+    text-align: center;
+    width: 110px;
+    border-radius: 20px;
+    padding-bottom: 8px;
+    margin-left: 140px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    visibility: hidden;
+    background-color: #FEE1E3;
+    color: #F4212E;
+    font-weight: bold;
+  }
+  .tool1:hover .tool {
+    visibility: visible;
+    transition-delay: 100ms;
+  }
+  #tool-btn {
+    
+    border: 1px solid;
+    height: 35px;
+    text-align: center;
+    width: 110px;
+    border-radius: 20px;
+    padding-bottom: 8px;
+    margin-left: 140px;
+    font-weight: 600;
+    
+  }
+  
+  
+  
+
+  .tool-name {
+    font-size: 19px;
+    margin-top: 10px;
+    color: #0f1419;
+font-weight: bold;
+  }
+  .tool-name:hover {
+    text-decoration: underline;
+  }
+  .name-prt .just-h {
+    margin-top: -10px;
+    color: #DADEE0;
+    font-size: 16px;
+  }
+  .bio-info {
+    font-size: 16px;
+    color: #1B2025;
+  }
+  #mid p {
+    font-size: 15px;
+    
+  }
+  #mid span {
+    color: #8E99A2;
+   
+  }
+  #mid p:hover {
+text-decoration: underline;
+  }
+
+ #three-imgs img {
+height: 20px;
+width: 20px;
+border-radius: 100%;
+position: absolute;
+top: 265px;
+ }
+ .first-img {
+   left: 10px;
+ }
+ .second-img {
+    left: 15px;
+
+ }
+ .third-img {
+    left: 20px;
+ }
+ .footer {
+    font-size: 15px;
+    padding-left: 15px;
+   padding-right: 20px;
+    color: #8E99A2;
+
+ }
+ .footer:hover {
+    text-decoration: underline;
+ }
+
+
+ /**second**/
+ #tweet-halal2 .tooltiptext {
+    visibility: hidden;
+    width: 335px;
+    background-color: #ffff;
+   box-shadow: 5px #fff;
+   border: #E7E7E8 0.8px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Schibsted Grotesk";
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 44%;
+    left: 5%;
+    margin-left: -60px;
+
+  }
+  /**comment icons**/
+ .more-tab {
+    display: none;
+ }
+  
+  #tweet-halal2:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 500ms;
+  }
+  #se2 {
+    text-align: left;
+    margin-right: 25px;
+  }
+
+ .more-tab {
+    width: 345px;
+  background-color: #ffff;
+ box-shadow: 5px #fff;
+ border: #E7E7E8 0.8px solid;
+  border-radius: 15px;
+ 
+  font-family: "Schibsted Grotesk";
+  
+  /* Position the tooltip */
+ 
+  z-index: 1;
+ 
+ position: absolute;
+ right: 15px;
+ top: 290px;
+
+}
+#second-more {
+    top: 820px;
+}
+.more-tab button{
+    border: none;
+    background-color: #fff;
+    display: block;
+   justify-content: start;
+    width: 100%;
+    height: 45px;
+   
+
+}
+
+.more-tab button:hover {
+    background-color: #E7E7E8;
+
+
+}
+
+
+button .mt {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+#mt {
+    text-align: left;
+    padding: 0;
+    padding-left: 20px;
+}
+#slash {
+    border: #0f1419 1px solid;
+    border-radius: 100%;
+    width: fit-content;
+   height: 20px;
+}
+.mt-first {
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.mt-last {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+ 
+/**third-section**/
+.fix-2 {
+    position: fixed;
+    width: 24%;
+height: 45px;
+border-radius: 50px;
+background-color: #EFF3F4;
+top: 10px;
+right: 13px;
+overscroll-behavior-y: contain;
+}
+
+#sh-top {
+    background-color: #fff;
+}
+.fix-2 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background: none;
+    padding-top: 10px;
+    
+}
+.fix-2 span {
+    color: #5F6F7B;
+margin-left: 15px;
+}
+
+.trend {
+    padding: 13px;
+   
+    width: 310px;
+    
+    margin-bottom: 20px; 
+}
+.all-part {
+    margin-top: 75px; 
+    border-radius: 20px;
+    background-color:#F7F9F9 ; 
+ margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;  
+    width: 310px;  
+}
+#all-part2 {
+    margin-top: -5px;
+}
+#trend-ellip {
+    margin-right: 10px;
+}
+.trend h3 {
+    font-size: 22px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+#trend-section p {
+    font-size: 13px;
+    color: #536471;
+    line-height: 16px;
+    text-align: start;
+}
+#trend-section h4 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0f1419;
+   word-spacing: normal;
+    font-weight: bold;
+    margin-top: -13px;
+    margin-bottom: -1px;
+    
+}
+/**blue-tck**/
+#blue-tick {
+    width: 17px;
+    color: #1D9BF0;
+    
+}
+
+.golden {
+    width: 17px;
+    color: #E2B719;
+}
+
+.fabri:hover {
+    text-decoration: underline;
+}
+
+#trend-section:hover {
+    background-color: #EFF1F1;
+}
+#trend-section {
+    padding-top: 10px;
+   
+}
+.show-this:hover {
+    background-color: #EFF1F1;
+}
+.show-this {
+    width: 100%;
+    height: 50px;
+   margin: 0;
+   padding-top: 15px;
+    padding-left: 13px;
+    margin-top: -30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#show-this2 {
+    margin-top: -20px;
+}
+.fabri {
+    font-size: 15px;
+    font-weight: bold;
+}
+#second-col {
+    margin-right: 30px;
+    padding: 0;
+    text-align: left;
+}
+#fabri-pic {
+    padding: 0;
+}
+#follow {
+padding: 0;
+margin-right: 40px;
+}
+#tweet-halal3 .tooltiptext {
+    visibility: hidden;
+    width: 305px;
+    background-color: #ffff;
+   box-shadow: 5px #fff;
+   border: #E7E7E8 0.8px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Schibsted Grotesk";
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 180%;
+    left: 70%;
+    margin-left: -60px;
+    padding: 10px;
+
+  }
+  
+  #tweet-halal3:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 500ms;
+}
+#tweet-halal4 .tooltiptext {
+    visibility: hidden;
+    width: 305px;
+    background-color: #ffff;
+   box-shadow: 5px #fff;
+   border: #E7E7E8 0.8px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Schibsted Grotesk";
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 190%;
+    left: 70%;
+    margin-left: -60px;
+
+  }
+  
+  #tweet-halal4:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 500ms;
+}
+#tweet-halal5 .tooltiptext {
+    visibility: hidden;
+    width: 305px;
+    background-color: #ffff;
+   box-shadow: 5px #fff;
+   border: #E7E7E8 0.8px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Schibsted Grotesk";
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 70%;
+    margin-left: -60px;
+
+  }
+  
+  #tweet-halal5:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 500ms;
+}
+#second-wtk {
+    padding-top: 5px;
+    margin-top: -30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#third-wtk {
+    padding: 5px;
+    
+    height: fit-content;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+  #follow {
+background-color: #1B2025;
+font-weight: 500;
+color: #fff;
+font-size: 14px;
+text-align: center;
+border-radius: 30px;
+width: 70px;
+height: 30px;
+float: right;
+margin-right: 0;
+margin-left: 10px;
+margin-bottom: 0;
+
+}
+#third-c {
+ padding: 0;
+  justify-content: right; 
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.tool-name {
+    margin-bottom: -10px;
+}
+.NORWAY{
+    width: 14px;
+
+}
+.promoted {
+    margin-top: -15px;
+    font-size: 14px;
+    color: #99A4AB;
+}
+.usn {
+    color: #8E99A1;
+    margin-top: -5px;
+}
+#akram {
+    border-radius: 3px;
+}
+.bio-info span {
+    color: #1D9BF0;
+}
+#tool-btnk {
+  width: 82px;  
+  background-color: #0f1419;
+  border: 1px solid;
+    height: 35px;
+    text-align: center;
+   font-size: 15px;
+    border-radius: 20px;
+    padding-bottom: 8px;
+    
+    margin-left: 140px;
+}
+#wkt:hover {
+background-color: #EFF1F1;
+
+}
+#third-wtk:hover {
+    background-color: #EFF1F1;
+    
+    }
+ #second-wtk:hover {
+        background-color: #EFF1F1;
+        
+        }
+.col-auto {
+    font-size: 13px;
+    color: #677682;
+    letter-spacing: normal;
+    text-align: start;
+    padding: 0;
+    margin-right: 8px;
+}
+.col-auto:hover {
+    text-decoration: underline;
+}
+#sm-1 {
+    padding: 0 0px 10px 0px;
+   position: absolute;
+   
+   margin-left: 30px;
+    
+}
+#sm-2 {
+    padding: 0 0px 10px 0px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;  
+}
+/**mmessGE**/
+.stick {
+position: fixed;
+background-color: #fff;
+
+padding: 10px;
+top: 580px;
+width: 310px;
+right: 30px;
+border: #E7E7E8 0.8px solid;
+font-size: 20px;
+font-weight: 600;
+border-radius: 20px;
+}
+#two-icons {
+    margin-left: 40px;
+}
+#one-ic {
+   padding-top: 2px;
+    height: 35px;
+    width: 35px;
+    padding-left: 8px;
+    line-height: 1.5;
+    border-radius: 50px;
+}
+#one-ic:hover {
+    background-color: #E7E7E8;
+}
+.fa-solid #one-ic {
+
+}
+/**space section**/
+.space-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    padding-top: 0;
+}
+.space-img2 {
+    width: 20px;
+    height: 20px;
+    padding-top: 0;
+}
+.space-h3 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0;
+    margin-top: 13px;
+}
+#jsp b{
+color: #0f1419;
+}
+#jsp {
+    padding-top: 4px;
+}
+#space-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 174px;
+    right: 84px;
+    border: #fff 1px solid;
+}
+#space-pic2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 272px;
+    right: 84px; 
+    border: #fff 1px solid;
+}
+#space-pic2:nth-child(2) {
+    right: 65px;
+    }
+    #space-pic2:nth-child(3) {
+        right: 50px;
+    }
+#space-pic:nth-child(2) {
+right: 65px;
+}
+#space-pic:nth-child(3) {
+    right: 50px;
+}
+#space-pic3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 371px;
+    right: 84px; 
+    border: #fff 1px solid;
+}
+#space-pic3:first-child {
+border-radius: 0;
+}
+#space-pic3:nth-child(2) {
+    right: 65px;
+    }
+    #space-pic3:nth-child(3) {
+        right: 50px;
+    }
+    #third-button {
+        border-radius: 0;
+    }
+    
+.nop {
+    margin-left: 45px;
+  
+  font-size: 12px;
+    font-weight: bold;
+
+}
+
+.col-4 .btn {
+   
+    border: #7856FF 2px solid;
+    animation-name: example;
+    animation-duration: 2;
+    height: 35px;
+    width: 105px;
+    margin-right: 10px;
+   padding: 0;
+    border-radius: 30px;
+}
+@keyframes example {
+    from {box-shadow: #EFF1F1 1px solid;}
+    to {box-shadow: #EFF1F1 5px solid;}
+  }
+#sp-title h4 {
+    margin-top: -6px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-right: 0;
+}
+.tend {
+  
+    padding-bottom: 10px;
+    
+}
