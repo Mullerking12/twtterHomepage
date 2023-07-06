@@ -21,35 +21,43 @@
 </head>
 <body onload="getPics()">
     <div class="row">
-        <div class="col col-lg-3" id="icon-section">
+        <div class="col  col-sm-0 col-md-0" id="icon-section">
            
             <div class="container">
-            <p><i class="fa-brands fa-twitter" id="tweet-home"></i></p>
+            <p class="bird"><i class="fa-brands fa-twitter" id="tweet-home"></i></p>
             
-                <button class="the-icon"><i class="fa-solid fa-house" id="ic"></i><span class="home">Home</span></button>
+                <button class="the-icon" id="p-icon"><img src="C:\Users\hp\Desktop\Twitter Home Page\home-5.svg"  class="Verify-b"> <span class="text" id="home">Home</span></button>
               
             
               
              
-              <button class="the-icon"> <i class="fa-regular fa-hashtag" id="ic"></i><span class="explore">Explore</span></button>
+              <button class="the-icon"> <i class="fa-solid fa-magnifying-glass" id="ic"></i><span class="text" id="explore">Explore</span></button>
             
-                <button class="the-icon"><i class="fa-regular fa-bell" id="ic"></i><span class="note">Notifications</span></button>
+                <button class="the-icon" id="p-icon"><img src="C:\Users\hp\Desktop\Twitter Home Page\twitter-notification-icon-4.jpg"  class="Verify-b"> <span class="text" id="note">Notifications</span></button>
            
-                    <button class="the-icon"> <i class="fa-regular fa-envelope" id="ic"></i><span class="Messages">Messages</span></button>
+                    <button class="the-icon"> <i class="fa-regular fa-envelope" id="ic"></i><span class="text" id="messages">Messages</span></button>
+                    <!--
                  <button class="the-icon"><i class="fa-solid fa-clipboard-list" id="ic"></i><span class="list"></span>Lists</button>
-
-                    <button class="the-icon"><i class="fa-regular fa-bookmark" id="ic"></i><span>Bookmarks</span></button>
-                <button class="the-icon"> <i class="fa-brands fa-square-twitter" id="ic"></i><span class="twitter-blue">Twitter Blue</span></button>
+-->
+                    <button class="the-icon" id="bookmark"><i class="fa-regular fa-bookmark" id="ic"></i><span class="text" id="book">Bookmarks</span></button>
+                <button class="the-icon" id="p-icon"> <img src="C:\Users\hp\Desktop\Twitter Home Page\icons8-twitter-verified-24.png"  class="Verify-b"> <span class="text" id="veri">Verified</span></button>
             
                 
             
-                <button class="the-icon"><i class="fa-regular fa-user" id="ic"></i><span class="profile">Profile</span></button>
+                <button class="the-icon"><i class="fa-regular fa-user" id="ic"></i><span class="text" id="pro">Profile</span></button>
             
-                <button class="the-icon"><i class="fa-solid fa-circle-info" id="ic"></i><span class="more">More</span></button>
+                <button class="the-icon" id="p-icon"><img src="C:\Users\hp\Desktop\Twitter Home Page\ellipsis.png"  class="Verify-b"> <span class="text" id="more">More</span></button>
+                <button class="the-icon"><img src="C:\Users\hp\Desktop\Twitter Home Page\leaf111.webp" alt="profile pic" class="Verify-b" id="leaf"> <span class="text" id="tweet-leaf">Tweet</span>
+                </button>
+                <button class="the-icon"  id="prof"> <img src="C:\Users\hp\Desktop\Twitter Home Page\profile pic.jpg" alt="profile pic" class="top-pic" id="pic2"></button>
             </div>
-        
+
+           
+           
            <div class="btn btn-primary btn-lg" id="first-tweet">Tweet</div>
-           <div class="row gx-2" id="bot">
+        
+        
+           <div class="row g-2" id="bot">
             <div class="col-2" id="bottom">
                 <img src="C:\Users\hp\Desktop\Twitter Home Page\profile pic.jpg" alt="profile pic" class="profile-pic"> 
             </div>
@@ -57,28 +65,33 @@
                 <p class="name">Ayooluwa Ogunwusi</p>
                 <p class="username">@Tycoon_D_ </p>
             </div>
-            <div class="col-1" id="before-elip"><span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span></div>
+          <!-- <div class="col-1" id="before-elip"><span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More" data-placement="auto"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span></div>-->
 
 
            </div>
             
+          
+
+
+
+
            
 
 
 
 
 
-
-
-
-
-
-
         </div>
-        <div class="col col-lg-6 col-sm-12" id="second-section">
+       
+        <div class="col col-lg-6 col-md-12 col-sm-12 g-0" id="second-section">
+            
+           
+       
             <div class="fix">
-            <h1 class="top-home">Home</h1>
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\profile pic.jpg" alt="profile-pic" class="top-pic" id="top-2">
+            <!--<h1 class="top-home">Home</h1>-->
             <div class="row" id="for-fol">
+                <h1 class="top-home">Home</h1>
                 <div class="col" id="for-you">
                     <h4 class="two-headings" id="blue-un">For you</h4>
                     
@@ -89,7 +102,7 @@
                 
             </div>
             
-            </div>
+        </div>
             <div class="carrying-all">
             <div class="row" id="whole-search">
                 <div class="col-1">
@@ -132,7 +145,7 @@
                       <a class="dropdown-item" href="#"><i class="fa-solid fa-user-xmark"></i><span>People you follow</span></a>
                       <a class="dropdown-item" href="#" id="below-drop"><i class="fa-solid fa-at"></i><span>Only people you mention</span></a>
                     </div>
-                    <hr>
+                   <hr>
                   </div>
             </div>
             
@@ -141,9 +154,9 @@
                 <div class="search-icons">
                     <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Media" data-placement="auto"><i class="fa-solid fa-image"></i></span>
                         <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="GIF" data-placement="auto"><i class="fa-solid fa-film"></i></span>
-                            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Poll" data-placement="auto"><i class="fa-solid fa-bars-progress"></i></span>
+                            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Poll" data-placement="auto"><i class="fa-solid fa-bars-progress" id="dont-show"></i></span>
                                 <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Emoji" data-placement="auto"><i class="fa-regular fa-face-smile"></i></span>
-                                    <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Schedule" data-placement="auto"><i class="fa-regular fa-calendar"></i></span>
+                                    <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Schedule" data-placement="auto"><i class="fa-regular fa-calendar" id="dont-show"></i></span>
                                         <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Location" data-placement="auto"><i class="fa-solid fa-location-dot" id="dot"></i></span>
             </div>
         </div>
@@ -293,7 +306,7 @@
                     <img src="C:\Users\hp\Desktop\Twitter Home Page\halal.jpg" class="halal-bottom">
                     
                 </div> 
-                <div class="col-10" id="show-this">
+                <div class="col col-lg-10 col-md-9" id="show-this">
                     <h4 class="thread">Show this thread</h4>
                 </div>
     </div>
@@ -409,7 +422,8 @@
             <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Share" data-placement="auto" id="comment-section"><i class="fa-solid fa-arrow-up-from-bracket" id="reply"></i><span></span></span>
         </div>
     </div>
-    <div class="row" id="third-tweet">
+    <div  id="third-tweet">
+    <div class="row">
         <div class="col-1" id="tweet-halal">
                     
             <img src="C:\Users\hp\Desktop\Twitter Home Page\yabaleftonline.jpg" class="top-pic">
@@ -435,35 +449,35 @@
         <div class="comment-icons" id="second-comment">
             <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Reply" data-placement="auto"><span class="c-reply"><i class="fa-regular fa-comment" id="reply"></i><span>1963</span></span></span>
 
-            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Retweet" id="comment-section"><span class="c-retweet"><i class="fa-solid fa-retweet" id="Retweet"></i><span>454</span></span></span>
-           <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Like" id="comment-section"><span class="c-like"><i class="fa-regular fa-heart" id="like"></i><span>6665</span></span></span>
-           <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="View" id="comment-section"><span class="c-view"><i class="fa-solid fa-chart-simple" id="view"></i><span>48.1k</span></span></span>
+            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Retweet" id="comment-section" data-placement="auto"><span class="c-retweet"><i class="fa-solid fa-retweet" id="Retweet"></i><span>454</span></span></span>
+           <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Like" id="comment-section" data-placement="auto"><span class="c-like"><i class="fa-regular fa-heart" id="like"></i><span>6665</span></span></span>
+           <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="View" id="comment-section" data-placement="auto"><span class="c-view"><i class="fa-solid fa-chart-simple" id="view"></i><span>48.1k</span></span></span>
            
-            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Share" id="comment-section"><i class="fa-solid fa-arrow-up-from-bracket" id="reply"></i><span></span></span>
+            <span  class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Share" id="comment-section" data-placement="auto"><i class="fa-solid fa-arrow-up-from-bracket" id="reply"></i><span></span></span>
         </div>
     </div>
-   
+</div>
+</div>
+</div>
 
 
-            </div>
-        </div>
-            
-        
-
-
+      
+    
 
         <div class="col col-lg-3" id="sh-top">
             
 <div class="cont">
             <div class="fix-2">
-              <span> <i class="fa-solid fa-magnifying-glass"></i></span><input type="text" placeholder="Search Twitter">
+              <span> <i class="fa-solid fa-magnifying-glass"></i></span> <input type="text" placeholder="Search Twitter" class="search-tweet">
             </div>
         </div>
+   
+    
         <div class="all-part">
             <div class="trend">
                 <h3 class="space-h3">Listen live in Spaces</h3>
                 <div class="tend" id="trend-section">
-                <div class="row g-1">
+                <div class="row g-1" id="no-g">
                     <div class="col-1">
                         <img src="C:\Users\hp\Desktop\Twitter Home Page\josefu.jpg" class="space-img">
                     </div>
@@ -478,10 +492,11 @@
                            
                           <img src="C:\Users\hp\Desktop\Twitter Home Page\josefu.jpg" id="space-pic" class="first-img1">
                           <img src="C:\Users\hp\Desktop\Twitter Home Page\kalder.jpg" id="space-pic" class="second-img1"> 
-                          
-                          
+                   
                           <img src="C:\Users\hp\Desktop\Twitter Home Page\midun.jpg" id="space-pic" class="third-img1"><span class="nop">+655</span>
-
+                       
+                          
+                        
                         </button>
                     </div>
                 </div>
@@ -492,17 +507,17 @@
                         <img src="C:\Users\hp\Desktop\Twitter Home Page\bitmart.jpg" class="space-img2">
                     </div>
                     <div class="col-10" id="jsp">
-                        <p><b>BitMart</b> is co-hosting</p>
+                        <p><b>BitMart</b> <img src="C:\Users\hp\Desktop\Twitter Home Page\golden tick.png" id="blue-tick"> is co-hosting</p>
                     </div>
                     <div class="col-8" id="sp-title">
                         <h4>The Voice of BRC20 Builders: Rise and Shine</h4>
                     </div>
                     <div class="col-4">
                         <button class="btn">
-                          <img src="C:\Users\hp\Desktop\Twitter Home Page\meta era true.jpg" id="space-pic2" class="img1">
-                          <img src="C:\Users\hp\Desktop\Twitter Home Page\bitmart.jpg" id="space-pic2" class="img1">
+                          <img src="C:\Users\hp\Desktop\Twitter Home Page\meta era true.jpg" id="space-pic" class="img1">
+                          <img src="C:\Users\hp\Desktop\Twitter Home Page\bitmart.jpg" id="space-pic" class="img1">
                           
-                          <img src="C:\Users\hp\Desktop\Twitter Home Page\damo.jpg" id="space-pic2" class="img1"><span class="nop">+455</span>
+                          <img src="C:\Users\hp\Desktop\Twitter Home Page\damo.jpg" id="space-pic" class="img1"><span class="nop">+455</span>
 
                         </button>
                     </div>
@@ -514,7 +529,7 @@
                         <img src="C:\Users\hp\Desktop\Twitter Home Page\near.jpg" class="space-img2">
                     </div>
                     <div class="col-10" id="jsp">
-                        <p><b>NEAR Protocol <img src="C:\Users\hp\Desktop\Twitter Home Page\blue-tick.png" id="blue-tick"></b> is hosting</p>
+                        <p><b>NEAR Protocol <img src="C:\Users\hp\Desktop\Twitter Home Page\golden tick.png" id="blue-tick"></b> is hosting</p>
                     </div>
                     <div class="col-8" id="sp-title">
                         <h4>Revolutionizing Brand Engagement and Loyalty in Web3:An Inside Look at Kalder Blockchain Enabled CRM Platform</h4>
@@ -522,9 +537,9 @@
                     <div class="col-4">
                         <button class="btn" id="third-button">
                           <img src="C:\Users\hp\Desktop\Twitter Home Page\near.jpg" id="space-pic3" class="first-img1">
-                          <img src="C:\Users\hp\Desktop\Twitter Home Page\kalder.jpg" id="space-pic3" class="second-img1">
+                          <img src="C:\Users\hp\Desktop\Twitter Home Page\kalder.jpg" id="space-pic" class="second-img1">
                           
-                          <img src="C:\Users\hp\Desktop\Twitter Home Page\midun.jpg" id="space-pic3" class="third-img1"><span class="nop">+33</span>
+                          <img src="C:\Users\hp\Desktop\Twitter Home Page\midun.jpg" id="space-pic" class="third-img1"><span class="nop">+33</span>
 
                         </button>
                     </div>
@@ -535,10 +550,10 @@
                     <h4 class="thread">Show more</h4>
                 </div> 
                 </div>
-            <div class="all-part">
+            <div class="all-part" id="normal-tt">
            <div class="trend">
            
-            <h3>Trends for you</h3>
+            <h3 class="space-h3">Trends for you</h3>
 
             <div class="row" id="trend-section">
                 <div class="col" id="each">
@@ -551,7 +566,7 @@
             </div>
             </div>
             <div class="row" id="trend-section">
-                <div class="col">
+                <div class="col" id="each">
                 <p>Trending in Nigeria</p>
                 <h4>Asake</h4>
                 <p>12.3k Tweets</p>
@@ -561,7 +576,7 @@
             </div>
             </div>
             <div class="row" id="trend-section">
-                <div class="col">
+                <div class="col" id="each">
                 <p>Trending in Nigeria</p>
                 <h4>Sancho</h4>
                 <p>6,211 Tweets</p>
@@ -571,7 +586,7 @@
             </div>
            </div> 
            <div class="row" id="trend-section">
-            <div class="col">
+            <div class="col" id="each">
             <p>Trending in Nigeria</p>
             <h4>Korra</h4>
             <p>3,129 Tweets</p>
@@ -581,7 +596,7 @@
         </div>
         </div>
         <div class="row" id="trend-section">
-            <div class="col">
+            <div class="col" id="each">
             <p>Sports . Trending</p>
             <h4>#MUWomen</h4>
             <p>10k Tweets</p>
@@ -592,7 +607,7 @@
         
         </div>
         <div class="row" id="trend-section">
-            <div class="col">
+            <div class="col" id="each">
             <p>Trending in Nigeria</p>
             <h4>#TheApologyLetter</h4>
             <p>2,615 Tweets</p>
@@ -602,7 +617,7 @@
         </div>
         </div>
         <div class="row" id="trend-section">
-            <div class="col">
+            <div class="col" id="each">
             <p>Sports . trending</p>
             <h4>Upamechanic</h4>
             <p>1,112 Tweets</p>
@@ -613,7 +628,7 @@
         
     </div>
     <div class="row" id="trend-section">
-        <div class="col">
+        <div class="col" id="each">
         <p>Trending</p>
         <h4>Portable</h4>
         <p>19.1k Tweets</p>
@@ -624,7 +639,7 @@
     
     </div>
     <div class="row" id="trend-section">
-        <div class="col">
+        <div class="col" id="each">
         <p>Trending in Nigeria</p>
         <h4>Lithium</h4>
         <p>19,9k Tweets</p>
@@ -634,7 +649,7 @@
     </div>
     </div>
     <div class="row" id="trend-section">
-        <div class="col">
+        <div class="col" id="each">
         <p>Trending in Nigeria</p>
         <h4>#tirriestuesday</h4>
         <p>13.6k Tweets</p>
@@ -654,8 +669,8 @@
 <div class="all-part" id="all-part2">
     <div class="trend">
         
-<h3>Who to follow</h3>
-<div class="row" id="wkt">
+<h3 class="space-h3">Who to follow</h3>
+<div class="row g-1" id="wkt">
     
     <div class="col-3">
         <div class="col-1" id="tweet-halal3">
@@ -664,7 +679,7 @@
                <span class="tooltiptext">
                    <div>
                        <img src="C:\Users\hp\Desktop\Twitter Home Page\fabrizo.jpg" class="top-pic">
-                       <button class="btn btn-secondary" id="tool-btnk">Following</button>
+                       <button class="btn btn-secondary" id="tool-btnk">Follow</button>
                        
                    </div>
                    <div class="name-prt">
@@ -726,7 +741,7 @@
                <span class="tooltiptext">
                    <div>
                        <img src="C:\Users\hp\Desktop\Twitter Home Page\haaland.jpg" class="top-pic">
-                       <button class="btn btn-md btn-secondary" id="tool-btnk">Following</button>
+                       <button class="btn btn-md btn-secondary" id="tool-btnk">Follow</button>
                       
                    </div>
                    <div class="name-prt">
@@ -787,11 +802,11 @@
                <span class="tooltiptext">
                    <div>
                        <img src="C:\Users\hp\Desktop\Twitter Home Page\akram.jpg" class="top-pic" id="akram">
-                       <button class="btn btn-sm btn-secondary" id="tool-btnk">Following</button>
+                       <button class="btn btn-sm btn-secondary" id="tool-btnk">Follow</button>
                       
                    </div>
                    <div class="name-prt">
-                   <h3 class="tool-name">Arkham <img src="C:\Users\hp\Desktop\Twitter Home Page\blue-tick.png" class="golden"></h3>
+                   <h3 class="tool-name">Arkham <img src="C:\Users\hp\Desktop\Twitter Home Page\golden tick.png" id="blue-tick"></h3>
                    <br>
                    <p class="just-h">@Arkamintel</p>
                </div>
@@ -828,7 +843,7 @@
        
        </div>
        <div class="col-6" id="second-col">
-        <h4 class="fabri">Arkham <img src="C:\Users\hp\Desktop\Twitter Home Page\blue-tick.png" class="golden"></h4>
+        <h4 class="fabri">Arkham <img src="C:\Users\hp\Desktop\Twitter Home Page\golden tick.png" id="blue-tick"></h4>
         <p class="usn">@Arkamintel</p>
         <p class="promoted"><i class="fa-solid fa-square-up-right"></i>  Promoted</p>
        </div>
@@ -869,26 +884,131 @@ More <i class="fa-solid fa-ellipsis"></i>
         © 2023 X Corp.
     </div>
 </div>
-
-
 </div>
+</div>   
+
+
 <div class="stick">
     <div class="row">
         <div class="col-6">
             Messages
         </div>
         <div class="col" id="two-icons">
-            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="top" title="New Message"><i class="fa-regular fa-envelope" id="one-ic"></i></span>
-                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="top" title="Expand"><i class="fa-solid fa-angles-down" id="one-ic"></i></span>
+           <button id="one-ic"><span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="auto" title="New Message"><i class="fa-regular fa-envelope"></i></span></button>
+        <button  id="one-ic" class="expand"><span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="auto" title="Expand"><i class="fa-solid fa-angles-down" id="trans"></i></span></button>
         </div>
     </div>
+
+    <div class="msg g-0" id="msection">
+        <div class="inner">
+        <div class="row g-0" id="carrier">
+            <div class="col-6">
+                Messages
+            </div>
+            <div class="col" id="two-icons">
+                <button id="one-ic"><span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="top" title="New Message"><i class="fa-regular fa-envelope"></i></span></button>
+                <button  id="one-ic" class="msg-down"><span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="top" title="Collapse"><i class="fa-solid fa-angles-down"></i></span></button>
+            </div>
+        </div>
     
+        </div>
+        <div class="msg-all">
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\kuda.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>Kuda App <span class="ttt">S</span>...</b><span class="kudh">@Kuda<span class="ttt">h</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time"> Feb 20</span></p>
+                <p class="message-thread">Hi there, thank you for reac<span class="tth">h</span>...</p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\sportybet.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>Sport<span class="ttt">y</span>...</b><span class="kudh">@sport<span class="ttt">y</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Oct 19, 2022</span></p>
+                <p class="message-thread"><span class="tth"></span></p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\marvel-third.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>M<span class="ttt">a</span>...</b><span class="kudh">@thegrea<span class="ttt">t</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Aug 19, 2022</span></p>
+                <p class="message-thread">😹😹🚩<span class="tth"></span></p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\favpur dark.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>Favour-o<span class="ttt">d</span>...</b><span class="kudh">@j<span class="ttt"></span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Mar 25, 2022</span></p>
+                <p class="message-thread">Omo werey!!<span class="tth"></span></p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\damo.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>DAM<span class="ttt">O</span>...</b><span class="kudh">@da<span class="ttt">mo</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Mar 12, 2022</span></p>
+                <p class="message-thread">Sent a link<span class="tth"></span></p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\chloe.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>Ch<span class="ttt">l</span>...</b><span class="kudh">@Readch<span class="ttt">lo</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Mar 7, 2022</span></p>
+                <p class="message-thread">Surprised to get your attent<span class="tth">io</span>...</p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        </div>
+        <div class="row g-1" id="snippet">
+            <div class="col-2" id="kuda">
+                <img src="C:\Users\hp\Desktop\Twitter Home Page\midun.jpg" class="top-pic" id="fabri-pic">
+            </div>
+            <div class="col-8 gx-0" id="msgth">
+                <p><b>themidu<span class="ttt">n</span>...</b><span class="kudh">@a<span class="ttt">r</span>...</span><span  class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-placement="auto" title="9:02 AM - feb 20, 2023" id="time">Feb 20</span></p>
+                <p class="message-thread">How your side?<span class="tth">h</span>...</p> 
+            </div>
+            <div class="col-2 gx-0" id="ellip-hidden">
+                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="More"><i class="fa-solid fa-ellipsis" id="ellipsis"></i></span>
+            </div>
+        
+        </div>
     </div>
 </div>
 
     </div>
    
 
+</div>
+
+
+    </div>
+   
 </div>
 </div>
 </body>
@@ -899,17 +1019,32 @@ More <i class="fa-solid fa-ellipsis"></i>
   });
 });
 
+$(document).ready(function() {
+        $(".expand").click(function(){
+    $(".msg").slideDown();
+    
+   
 
+  });
+});
+$(document).ready(function() {
+        $(".msg-down").click(function(){
+    $(".msg").slideUp();
+    
+   
+
+  });
+});
 $(document).ready(function() {
         $("#ellipsis-id").click(function(){
-    $(".more-tab").show();
-    $("#second-more").hide();
+    $(".more-tab").toggle();
+    
   });
 });
 
 $(document).ready(function() {
         $("#second-ellip").click(function(){
-    $("#second-more").show();
+    $("#second-more").toggle();
    
    
 
@@ -950,7 +1085,7 @@ imgs.forEach(img => {
         
 
 
-
+       
 
     </script>
 </html>
