@@ -23,11 +23,11 @@ body {
 }
 
 #icon-section {
-    overflow-y: scroll;
+   overflow-y: scroll;
     overflow-x: hidden;
     overscroll-behavior-y: contain;
     scroll-behavior: smooth;
-    scroll-margin-block: ;
+   
     position: fixed;
     z-index: 1;
     width: 280px;
@@ -77,6 +77,9 @@ body {
     border-radius: 30px;
     background: none;
 }
+#home-img {
+    border-radius: 5px;
+}
 #note-emo {
     width: 50px;
 }
@@ -91,11 +94,7 @@ body {
 
 
 
-.the-icon:hover {
-    background-color: #E7E7E8;
 
-
-}
 
 
 button span {
@@ -128,9 +127,12 @@ button span {
 }
 
 #tweet-home {
-    font-size: 25px;
+    font-size: 35px;
     padding-left: 30px;
     padding-top: 15px;
+    
+    width: 30px;
+        height: 30px;
 }
 
 
@@ -253,7 +255,14 @@ hr {
     color: #0f1419;
 
 }
-
+/*.hr2 {
+    width: 50px;
+   mar
+    height: 20px;
+    z-index: 1;
+    color: #1A8CD8;
+    border-radius: 3px;
+}*/
 #for-you {
     height: 50px;
     width: 100%;
@@ -355,19 +364,20 @@ input:focus {
     background-color: #fff;
     opacity: 98%;
     padding: 0;
-   
+   /* border-right: #E7E7E8 1px solid;*/
 }
 
 #for-fol {
     border-bottom: #E7E7E8 1px solid;
     border-right: #E7E7E8 1px solid;
     background-color: #fff;
+    
 }
 
 
 
 #whole-search {
-    padding-top: 120px;
+    padding-top: 140px;
     margin-left: 2px;
     cursor: pointer;
 
@@ -413,8 +423,8 @@ font-weight: 500;
 
 .dropdown-menu {
     border-radius: 20px;
-    height: 200px;
-    width: 270px;
+    height: 178px;
+    width: 250px;
     font-size: 18px;
     box-shadow: #E7E7E8 20px;
 
@@ -430,7 +440,8 @@ font-weight: 500;
 #mark {
     text-align: left;
     color: #1D9BF0;
-    margin-left: 100px;
+    margin-left: 90px;
+    font-size: 13px;
 }
 
 .dropdown-item .fa-solid {
@@ -448,12 +459,12 @@ font-weight: 500;
 }
 
 #circle {
-    background-color: green;
+    background-color: #16bf87;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     line-height: 2.2;
-    padding-left: 9px;
+    padding-left: 12px;
 
 
 
@@ -464,18 +475,31 @@ font-weight: 500;
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
-    text-decoration: underline;
+   
     background-color: #fff;
     font-size: 15px;
     font-weight: 700;
     margin-left: 10px;
+    height: 25px;
+    line-height: 0.5;
+    border-radius: 15px;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: #0f1419;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    font-weight: bold;
+    
 
 }
 
 .edit-link:hover {
     background-color: #ccc;
 }
-
+.pep {
+    color: #536471;
+    font-weight: 200;
+}
 #the-drop .btn {
     color: #1D9BF0;
     letter-spacing: normal;
@@ -503,7 +527,7 @@ font-weight: 500;
 }
 
 h1.dropdown-item {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -517,16 +541,22 @@ a.dropdown-item {
 }
 
 #topper {
-    padding-top: 10px;
+    padding: 10px 15px 10px 15px;
 
 
 }
-
+.everyone {
+    font-size: 15px;
+    font-weight: 600;
+}
 #second {
-    padding-top: 15px;
+    height: 70px;
+    overflow: hidden;
+    padding: 15px;
     display: flex;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+  
 }
 
 a.dropdown-item:hover {
@@ -628,17 +658,22 @@ a p {
     line-height: 2.2;
     padding-left: 11px;
 }
-
+#cons .mark {
+    margin-left: 150px;
+    font-size: 15px;
+}
 #second-drop .dropdown-menu {
     border-radius: 20px;
-    height: 310px;
-    width: 350px;
+    height: 278px;
+    width: 330px;
     font-size: 18px;
-    shadow: #E7E7E8 20px;
+    box-shadow: #E7E7E8 20px;
 
 
 }
-
+.hr1 {
+    width: 480px;
+}
 #second-drop {
     display: none;
     z-index: 10;
@@ -648,7 +683,9 @@ a p {
 
 #cons p {
     color: #536471;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 0;
+    margin-left: 5px;
 }
 
 #cons p:hover {
@@ -657,9 +694,9 @@ a p {
 }
 
 #cons a {
-    height: 70px;
-    padding-top: 15px;
-
+    height: 60px;
+    padding-top: 10px;
+overflow: hidden;
 }
 
 #below-drop {
@@ -700,8 +737,9 @@ a p {
 }
 
 #cons h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
+    margin-top: 5px;
 }
 
 #cons h3:hover {
@@ -762,14 +800,14 @@ a p {
 }
 
 .comment-icons i {
-    padding-top: 4;
+    padding-top: 0;
     height: 40px;
     width: 40px;
     border-radius: 30px;
     text-align: center;
-    line-height: 2.5;
+    line-height: 2;
 
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
 
 }
@@ -784,7 +822,7 @@ i .fa-regular {
 }
 
 .comment-icons span {
-    margin-left: 5px;
+    margin-left: 0;
     font-weight: 400;
     font-family: "TwitterChirp", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", Arial, sans-serif;
 }
@@ -804,7 +842,7 @@ i#like-46 {
 }
 
 #comment-section {
-    margin-left: 25px;
+    margin-left: 35px;
     cursor: pointer;
 
 }
@@ -908,7 +946,7 @@ i#like-46 {
     height: 400px;
     width: 530px;
     border-radius: 20px;
-    margin-left: 65px;
+    margin-left: 75px;
     padding-right: 0;
 }
 
@@ -963,7 +1001,7 @@ i#like-46 {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 380px;
+    top: 350px;
     left: 25%;
     margin-left: -60px;
 
@@ -1098,7 +1136,7 @@ i#like-46 {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 885px;
+    top: 848px;
     left: 25%;
     margin-left: -60px;
 
@@ -1276,7 +1314,7 @@ button .mt {
 #trend-section p {
     font-size: 13px;
     color: #536471;
-    line-height: 16px;
+    line-height: 8px;
     text-align: start;
 }
 
@@ -1286,8 +1324,8 @@ button .mt {
     color: #0f1419;
     word-spacing: normal;
     font-weight: bold;
-    margin-top: -13px;
-    margin-bottom: -1px;
+    margin-top: -5px;
+  
 
 }
 
@@ -1340,6 +1378,7 @@ button .mt {
 
 .fabri {
     font-size: 15px;
+    color: #0f1419;
     font-weight: bold;
 }
 
@@ -1353,10 +1392,6 @@ button .mt {
     padding: 0;
 }
 
-#follow {
-    padding: 0;
-    margin-right: 40px;
-}
 
 #tweet-halal3 .tooltiptext {
     visibility: hidden;
@@ -1460,7 +1495,8 @@ button .mt {
     margin-right: 0;
     margin-left: 10px;
     margin-bottom: 0;
-
+    padding: 0;
+   
 }
 
 #follow:hover {
@@ -1515,7 +1551,9 @@ button .mt {
 
     margin-left: 140px;
 }
-
+#tool-btnk:hover {
+background-color: #536471;
+}
 #wkt:hover {
     background-color: #EFF1F1;
 
@@ -1534,7 +1572,9 @@ button .mt {
     background-color: #EFF1F1;
 
 }
-
+.space-h3 {
+    color: #14191E;
+}
 .col-auto {
     font-size: 13px;
     color: #677682;
@@ -1544,7 +1584,7 @@ button .mt {
     margin-right: 8px;
 }
 
-.col-auto:hover {
+#copyright:hover {
     text-decoration: underline;
 }
 
@@ -1576,6 +1616,7 @@ button .mt {
     font-size: 20px;
     font-weight: 600;
     border-radius: 20px;
+   
 }
 #trans {
     transform: rotateX(180deg);
@@ -1583,15 +1624,16 @@ button .mt {
 #two-icons {
     margin-left: 50px;
 }
-
+#thetips {
+    margin-left: -10px;
+}
 #one-ic {
 
     height: 40px;
     width: 40px;
 background: none;
     line-height: 2;
-    padding-left: 0;
-   
+    
     text-align: left;
     border-radius: 50px;
     border: none;
@@ -1755,7 +1797,8 @@ padding-left: 0;
     background-color: #fff;
     border-radius: 20px;
     cursor: pointer;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow: auto;
     overflow-x: hidden;
     font-size: 20px;
     font-weight: 600;
@@ -1771,51 +1814,21 @@ display: none;
 
 
 
-.msg::-webkit-scrollbar {
+/*.msg::-webkit-scrollbar {
 
-    width: 15px;
+    border-top-right-radius: px;
 }
 
-.msg::-webkit-scrollbar-track {
-    background: #f1f1f1;
 
 
-}
 
-/* Handle */
-.msg::-webkit-scrollbar-thumb {
-    background: #888;
-
-
-}
-
-::-webkit-scrollbar-button:single-button {
-    background-color: #f1f1f1;
-    display: block;
+.msg::-webkit-scrollbar-button:single-button {
+    
     border-top-right-radius: 20px;
 
-    height: 15px;
-    width: 14px;
+   
 }
-
-/* Handle on hover */
-.msg::-webkit-scrollbar-thumb:hover {
-    background: #555;
-    border-left: solid 1px white;
-
-}
-
-::-webkit-scrollbar-button:single-button:vertical:increment {
-    border-width: 0;
-    border-color: #555555 transparent transparent transparent;
-
-}
-
-.msg::-webkit-scrollbar-button:single-button:vertical:decrement {
-    border-width: 0 8px 8px 8px;
-    border-color: transparent transparent #555555 transparent;
-
-}
+*/
 
 #carrier {
     padding: 10px 10px 15px 20px;
@@ -1863,7 +1876,7 @@ display: none;
 
 
 #msgth {
-    color: #C2C9CD;
+    color: #8B979F;
     font-size: 13px;
     font-weight: 400;
     line-height: 0.5;
@@ -1938,165 +1951,1400 @@ display: none;
 #top-2 {
     display: none;
 }
-
+#mobile-hori {
+    display: none;
+}
+#lef-twet2 {
+    display: none;}
+    #tweet-home2 {
+        display: none;
+    }
+    .mobile-design {
+        display: none;
+    }
+    
 /**Media Query**/
-/**@media (max-width: 768px)**/
-
-/*@media screen and (max-width: 575px) and (min-width: 500px) {
-#icon-section {
-    width: 120px;
+@media screen and (max-width: 352px) and (min-width: 250px) {
+    #the-whole {
+        display: none;
+       }
+.mobile-design {
+    display: block;
+    width: 100%;
 }
-.fix {
-    width: 75%;
-    left: 120px;
-}
-#second-section {
-    width: 65%;
-    left: 130px;
-}
-}*/
-
-@media screen and (max-width: 500px) {
-    #icon-section {
-        
-       display: none;
-    }
-    #top-2 {
-        display: block;
-       margin: 10px;
-        background-color: #fff;
-    }
-    #second-section {
-      width: 100%; 
-     margin: 0;
-     font-size: 13px;
-     font-weight: 400;
+#mobile-hori2 {
+    border-top: #E7E7E8 0.5px solid;
+     position: fixed;
+     display: flex;
+     z-index: 1;
+     width: 100%;
+     height: 55px;
     
-     }
-     /*.tweets-section {
-        margin-top: 10%;
-     }*/
-     #the-hb {
-        padding-left: 5%;
-        padding-right: 5%;
-     }
-     .stick {
-        display: none;
-    }
-     #second-tweet {
-        padding-left: 5%;
-        padding-right: 5%;
-     }
-     .tooltiptext {
-        display: none;
-     }
-     .top-home {
-        display: none;
-     }
-     .two-headings {
-        font-size: 90%;
-        padding-top: 10px;
-     }
-     .fix {
-      width: 100%;
-     
-      margin-right: -77%;
-    font-size: 15px;
-      
-            }
-            .top-pic {
-                width: 35px;
-            }
-            .c-view {
-                display: none;
-            }       
-           
-        #whole-search {
-          display: none;
-        }
-            
-        .mob-dis {
-            display: block;
-        } 
-    .thread {
-        font-size: 13px;
-    } 
-    .halal-bottom {
-        width: 25px;
-        height: 27px;
-    } 
-    #show-this {
-        margin-left: -77%;
-    } 
-    .show-tweet {
-      
-        margin-top: 20%;
-    } 
+ }
+ .Verify-b {
+    width: 20px;
+    border-radius: 30px;
+    background: none;
+}
+ .flex-container {
+     display: flex;
+     background-color: #fff;
+     z-index: 1;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 0;
+    
+ }
+ #ic {
+    font-size: 20px;
+ }
+ .the-icon {
+    
+    padding-top: 5px;
+ }
+ .the-icon:hover {
+    background-color: none;
+}
+
+ .flex-container > span {
+    
+    margin-left: 1%;
+    
+     display: flex; 
+   }
+   .flex-container > span:nth-child(3){
+     margin-left: 8%;
+     margin-right: 8%;
+   }
+   
+   .flex-container > span:nth-child(2){
+     padding-top: 3px;
+     margin-left: 6%;
+   } 
+   .the-icon:hover {
+    background: none;
+}
+.Verify-b:hover {
+    background: none;
+}
+   #leaf2 {
+    width: 50px;
+}
+.Verify-b {
+    border-radius: 500px;
+}
+#lef-twet2 {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background: none;
+    bottom: 120px;
+   
+
+}
+
+
+
+
+#mobile-foyo:hover {
+background-color: #E7E7E8;
+}
+
+
+#mobile-fol:hover {
+background-color: #E7E7E8;
+}
+.sticky-mobile {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+/*margin-top: 30px;*/
+    color: #536471; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    opacity: 98%;
+    background-color: #fff;
+    font-size: 13px;
+}
+#mobile-foyo {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+   color: #14191E;
+   font-weight: 600; 
+}
+#mobile-fol {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+}
+
+hr.new5 {
+    border: 3px solid  #1A8CD8;
+  
+    width: 55px;
+   left: 18%;
+    top: 24px;
+    border-radius: 5px;
+    position: absolute;
+  }
+
+#tweet-home2 {
+    display: inline;
+   position: absolute;
+    font-size: 30px;
+    left: 45%;
+   
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+#top-2 {
+    display: block;
+   margin: 10px 10px 10px 30px;
+    background-color: #fff;
+    margin-left: 15px;
+    border: none;
+}
+.top-pic {
+    width: 30px;
+}
+#mob-pp {
+    width: 35px;
+}
 #thread-end {
-    padding-left: 0;
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 0;
 }
-    .main-thread {
-        margin-top: -10px;
-        padding-top: 0;
-        margin-left: 10px;
-        padding-left: 20px;
-        border-left: #E7E7E8 3px solid;
-    }
-
-    .screenshot {
-        width: 250px;
-    } 
-    #comment-section {
-        margin-left: 30px;
-       } 
-    .comment-icons {
-        font-size: 14px;
-    }
-       #blue-un {
-        
-        
-        text-underline-offset: 13px;
-        
+#the-hb {
+    width: 100%;
+}
+#halal-username {
+    margin-left: 15px;
     
-    }
-    
-    #for-you {
-        height: 40px;
-     
-        padding: 2px;
-        font-weight: bold;
-    }
-    
-    #following {
-        height: 40px;
-       
-        padding: 2px;
-    }  
-    
-    .hakimi-pic {
-        height: 400px;
-       width: 530px;
-        border-radius: 20px;
-        margin-left: 35px;
-        padding-right: 0;
-    }
-    
-    #second-comment {
-        margin-left: 65px;
-    }  
-    #sh-top {
-        display: none;
-    }
+    margin-top: -5px;
+}
+.main-thread2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.just-h {
+    font-weight: bold;
    
 }
+.line-br {
+    display: none;
+}
+#time {
+    font-weight: bold;
+}
+.thread-begin {
+    margin-top: -9px;
+}
 
-@media screen and (max-width: 600px) and (min-width: 500px) {
+ 
+.screenshot2 {
+    width: 70%;
+    height: 200px;
+
+}
+#mob-screen{
+    width: 100%;
+    margin-left: 0;
+}
+#mob-screen2 {
+    width: 80%;
+   
+}
+#thread-pic {
+    width: 100%;
+
+}
+
+
+.main-thread2{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: #E7E7E8 3px solid;
+}
+
+#first-pict-mob img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+   
+    padding: 0;
+}
+
+#second-pict-mob img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+    
+    padding: 0;
+}
+
+.comment-icons {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #536471;
+    text-align: start;
+    line-height: 16px;
+    font-family: "Schibsted Grotesk";
+}
+
+.comment-icons i {
+    padding-top: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2.5;
+
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.comment-icons span {
+    margin-left: -10px;
+}
+.comment-icons #comment-section {
+    margin-left: 10px;
+}
+#second-comment {
+    margin-left: 50px;
+}
+.halal-bottom {
+   margin-left: 15px;
+}
+#second-tweet {
+    width: 100%;
+}
+.hakimi-pic {
+    width: 85%;
+    height: 220px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.thread-begin {
+    font-size: 12px;
+    font-weight: bold;
+}
+#yaba-tweet {
+    margin-top: -15px;
+    line-height: 1.1;
+    font-weight: bold;
+    font-size: 12px;
+}
+#ybt {
+    margin-top: -3px;
+}
+.d-name {
+   font-size: 13px;
+}
+
+.thread-vid {
+    border-radius: 10px;
+    margin-left: 40px;
+    border: #E7E7E8 1px solid;
+    width: 85%;
+    height: 300px;
+}
+
+
+#third-tweet {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-top: #E7E7E8 1px solid;
+    margin-right: 1px;
+font-size: 13px;
+
+}
+
+.more-tab {
+    width: 230px;
+  
+    
+
+}
+#tab {
+    left: 120px;
+    top: 120px;
+   
+}
+button .mt {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.thread {
+    font-size: 13px;
+    padding-top: 5px;
+}
+#third-ellip {
+    margin-right: 13px;
+}
+#second-ellip {
+    margin-right: 20px;
+} 
+#ellipsis-id {
+    margin-right: 15px;
+}
+
+
+
+
+}
+@media screen and (max-width: 413px) and (min-width: 352px) {
+    #the-whole {
+        display: none;
+       }
+.mobile-design {
+    display: block;
+    width: 100%;
+}
+#mobile-hori2 {
+    border-top: #E7E7E8 0.5px solid;
+     position: fixed;
+     display: flex;
+     z-index: 1;
+     width: 100%;
+     height: 55px;
+    
+ }
+ .Verify-b {
+    width: 20px;
+    border-radius: 30px;
+    background: none;
+}
+ .flex-container {
+     display: flex;
+     background-color: #fff;
+     z-index: 1;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 0;
+    
+ }
+ #ic {
+    font-size: 20px;
+ }
+ .the-icon {
+    
+    padding-top: 5px;
+ }
+ .the-icon:hover {
+    background: none;
+}
+.Verify-b:hover {
+    background: none;
+}
+ .flex-container > span {
+    
+    margin-left: 1%;
+    
+     display: flex; 
+   }
+   .flex-container > span:nth-child(3){
+     margin-left: 8%;
+     margin-right: 8%;
+   }
+   
+   .flex-container > span:nth-child(2){
+     padding-top: 3px;
+     margin-left: 6%;
+   } 
+   .the-icon:hover {
+    background-color: none;
+   }
+   #leaf2 {
+    width: 50px;
+}
+.Verify-b {
+    border-radius: 500px;
+}
+#lef-twet2 {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background: none;
+    bottom: 120px;
+   
+
+}
+
+
+
+
+#mobile-foyo:hover {
+background-color: #E7E7E8;
+}
+
+
+#mobile-fol:hover {
+background-color: #E7E7E8;
+}
+.sticky-mobile {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+/*margin-top: 30px;*/
+    color: #536471; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    opacity: 98%;
+    background-color: #fff;
+    font-size: 13px;
+}
+#mobile-foyo {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+   color: #14191E;
+   font-weight: 600; 
+}
+#mobile-fol {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+}
+
+hr.new5 {
+    border: 3px solid  #1A8CD8;
+  
+    width: 55px;
+   left: 18%;
+    top: 24px;
+    border-radius: 5px;
+    position: absolute;
+  }
+
+#tweet-home2 {
+    display: inline;
+   position: absolute;
+    font-size: 30px;
+    left: 45%;
+   
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+#top-2 {
+    display: block;
+   margin: 10px 10px 10px 30px;
+    background-color: #fff;
+    margin-left: 15px;
+    border: none;
+}
+.top-pic {
+    width: 30px;
+}
+#mob-pp {
+    width: 35px;
+}
+#thread-end {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 0;
+}
+#the-hb {
+    width: 100%;
+}
+#halal-username {
+    margin-left: 10px;
+    
+    margin-top: -5px;
+}
+.main-thread2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.just-h {
+    font-weight: bold;
+}
+#time {
+    font-weight: bold;
+}
+.thread-begin {
+    margin-top: -9px;
+}
+
+ 
+.screenshot2 {
+    width: 70%;
+    height: 200px;
+
+}
+#mob-screen{
+    width: 100%;
+    margin-left: 0;
+}
+#mob-screen2 {
+    width: 80%;
+   
+}
+#thread-pic {
+    width: 100%;
+
+}
+
+
+.main-thread2{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: #E7E7E8 3px solid;
+}
+
+#first-pict-mob img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+   
+    padding: 0;
+}
+
+#second-pict-mob img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+    
+    padding: 0;
+}
+
+.comment-icons {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #536471;
+    text-align: start;
+    line-height: 16px;
+    font-family: "Schibsted Grotesk";
+}
+
+.comment-icons i {
+    padding-top: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2.5;
+
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.comment-icons span {
+    margin-left: -10px;
+}
+.comment-icons #comment-section {
+    margin-left: 10px;
+}
+#second-comment {
+    margin-left: 50px;
+}
+.halal-bottom {
+   margin-left: 15px;
+}
+#second-tweet {
+    width: 100%;
+}
+.hakimi-pic {
+    width: 77%;
+    height: 220px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.thread-begin {
+    font-size: 12px;
+    font-weight: bold;
+}
+#yaba-tweet {
+    margin-top: -15px;
+    line-height: 1.1;
+    font-weight: bold;
+    font-size: 12px;
+}
+#ybt {
+    margin-top: -3px;
+}
+.d-name {
+    font-size: 13px;
+}
+
+.thread-vid {
+    border-radius: 10px;
+    margin-left: 40px;
+    border: #E7E7E8 1px solid;
+    width: 77%;
+    height: 300px;
+}
+
+
+#third-tweet {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-top: #E7E7E8 1px solid;
+    margin-right: 1px;
+font-size: 13px;
+
+}
+
+.more-tab {
+    width: 230px;
+  
+    
+
+}
+#tab {
+    left: 120px;
+    top: 120px;
+   
+}
+button .mt {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.thread {
+    font-size: 13px;
+    padding-top: 5px;
+}
+#third-ellip {
+    margin-right: 13px;
+}
+#second-ellip {
+    margin-right: 20px;
+} 
+#ellipsis-id {
+    margin-right: 15px;
+}
+
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+}
+@media screen and (max-width: 459px) and (min-width: 413px) {
+    #the-whole {
+        display: none;
+       }
+.mobile-design {
+    display: block;
+    width: 100%;
+}
+#mobile-hori2 {
+    border-top: #E7E7E8 0.5px solid;
+     position: fixed;
+     display: flex;
+     z-index: 1;
+     width: 100%;
+     height: 55px;
+    
+ }
+ .flex-container {
+     display: flex;
+     background-color: #fff;
+     z-index: 1;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 0;
+    
+ }
+ .the-icon:hover {
+    background-color: none;
+}
+
+ .flex-container > span {
+    
+    margin-left: 3%;
+    
+     display: flex; 
+   }
+   .flex-container > span:nth-child(3){
+     margin-left: 10%;
+     margin-right: 8%;
+   }
+   
+   .flex-container > span:nth-child(2){
+     padding-top: 3px;
+     margin-left: 8%;
+   } 
+   .the-icon:hover {
+    background-color: none;
+   }
+   #leaf2 {
+    width: 60px;
+}
+.Verify-b {
+    border-radius: 500px;
+}
+.the-icon:hover {
+    background: none;
+}
+.Verify-b:hover {
+    background: none;
+}
+#lef-twet2 {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background: none;
+    bottom: 120px;
+   
+
+}
+
+
+
+
+#mobile-foyo:hover {
+background-color: #E7E7E8;
+}
+
+
+#mobile-fol:hover {
+background-color: #E7E7E8;
+}
+.sticky-mobile {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+/*margin-top: 30px;*/
+    color: #536471; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    opacity: 98%;
+    background-color: #fff;
+}
+#mobile-foyo {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+   color: #14191E;
+   font-weight: 600; 
+}
+#mobile-fol {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+}
+
+hr.new5 {
+    border: 3px solid  #1A8CD8;
+  
+    width: 55px;
+   left: 19%;
+    top: 24px;
+    border-radius: 5px;
+    position: absolute;
+  }
+
+#tweet-home2 {
+    display: inline;
+   position: absolute;
+    font-size: 30px;
+    left: 45%;
+   
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#top-2 {
+    display: block;
+   margin: 10px 10px 10px 30px;
+    background-color: #fff;
+    margin-left: 15px;
+    border: none;
+}
+.top-pic {
+    width: 40px;
+}
+#thread-end {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 0;
+}
+#the-hb {
+    width: 100%;
+}
+
+#halal-username {
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 13px;
+}
+.thread-begin {
+    margin-top: -9px;
+}
+.main-thread2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.just-h {
+    font-weight: bold;
+}
+#time {
+    font-weight: bold;
+}
+ 
+.screenshot2 {
+    width: 70%;
+    height: 200px;
+
+}
+#mob-screen{
+    width: 100%;
+    margin-left: 0;
+}
+#mob-screen2 {
+    width: 80%;
+   
+}
+#thread-pic {
+    width: 100%;
+
+}
+
+
+.main-thread2{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: #E7E7E8 3px solid;
+}
+
+#first-pict-mob img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+   
+    padding: 0;
+}
+
+#second-pict-mob img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+    
+    padding: 0;
+}
+
+.comment-icons {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #536471;
+    text-align: start;
+    line-height: 16px;
+    font-family: "Schibsted Grotesk";
+    margin-left: 2px;
+}
+
+.comment-icons i {
+    padding-top: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2.5;
+
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.comment-icons span {
+    margin-left: -6px;
+}
+.comment-icons #comment-section {
+    margin-left: 10px;
+}
+#second-comment {
+    margin-left: 50px;
+}
+.halal-bottom {
+   margin-left: 15px;
+}
+#second-tweet {
+    width: 100%;
+}
+.hakimi-pic {
+    width: 75%;
+    height: 220px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.thread-begin {
+    font-size: 13px;
+    font-weight: bold;
+}
+#yaba-tweet {
+    margin-top: -15px;
+    line-height: 1.1;
+}
+.d-name {
+    font-size: 14px;
+}
+
+.thread-vid {
+    border-radius: 10px;
+    margin-left: 50px;
+    border: #E7E7E8 1px solid;
+    width: 75%;
+    height: 300px;
+}
+
+
+#third-tweet {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-top: #E7E7E8 1px solid;
+    margin-right: 1px;
+font-size: 14px;
+
+}
+
+.more-tab {
+    width: 250px;
+  
+    
+
+}
+#tab {
+    left: 200px;
+    top: 150px;
+   
+}
+button .mt {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.thread {
+    font-size: 14px;
+    padding-top: 5px;
+}
+#third-ellip {
+    margin-right: 13px;
+}
+#second-ellip {
+    margin-right: 20px;
+} 
+#ellipsis-id {
+    margin-right: 15px;
+}
+
+
+
+}
+
+@media screen and (max-width: 575px) and (min-width: 459px){
+    #the-whole {
+        display: none;
+       }
+.mobile-design {
+    display: block;
+    width: 100%;
+}
+#mobile-hori2 {
+    border-top: #E7E7E8 0.5px solid;
+     position: fixed;
+     display: flex;
+     z-index: 1;
+     width: 100%;
+     height: 55px;
+ }
+ .flex-container {
+     display: flex;
+     background-color: #fff;
+     z-index: 1;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+     padding: 0;
+ }
+ 
+
+ .flex-container > span {
+    
+    margin-left: 5%;
+    
+     display: flex; 
+   }
+   .flex-container > span:nth-child(3){
+     margin-left: 10%;
+     margin-right: 10%;
+   }
+   
+   .flex-container > span:nth-child(2){
+     padding-top: 3px;
+     margin-left: 10%;
+   } 
+   span:hover {
+    background-color: none;
+   }
+   #leaf2 {
+    width: 60px;
+}
+.Verify-b {
+    border-radius: 500px;
+}
+#lef-twet2 {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    background: none;
+    bottom: 120px;
+   
+
+}
+
+
+
+
+#mobile-foyo:hover {
+background-color: #E7E7E8;
+}
+
+
+#mobile-fol:hover {
+background-color: #E7E7E8;
+}
+.sticky-mobile {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+/*margin-top: 30px;*/
+    color: #536471; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    opacity: 98%;
+    background-color: #fff;
+}
+#mobile-foyo {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+   color: #14191E;
+   font-weight: 600; 
+}
+#mobile-fol {
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #E7E7E8 1px solid;
+}
+.thread {
+    font-size: 14px;
+    padding-top: 5px;
+}
+hr.new5 {
+    border: 3px solid  #1A8CD8;
+  
+    width: 55px;
+   left: 19.5%;
+    top: 24px;
+    border-radius: 5px;
+    position: absolute;
+  }
+
+#tweet-home2 {
+    display: inline;
+   position: absolute;
+    font-size: 30px;
+    left: 45%;
+   
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#top-2 {
+    display: block;
+   margin: 10px 10px 10px 30px;
+    background-color: #fff;
+    margin-left: 15px;
+    border: none;
+}
+.top-pic {
+    width: 40px;
+}
+#thread-end {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 0;
+}
+#the-hb {
+    width: 100%;
+}
+#halal-username {
+    margin-left: 10px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.thread-begin {
+    margin-top: -5px;
+}
+.main-thread2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.just-h {
+    font-weight: bold;
+}
+#time {
+    font-weight: bold;
+}
+.thread-begin {
+    margin-top: -9px;
+}
+ 
+.screenshot2 {
+    width: 70%;
+    height: 200px;
+
+}
+#mob-screen{
+    width: 100%;
+    margin-left: 0;
+}
+#mob-screen2 {
+    width: 80%;
+   
+}
+#thread-pic {
+    width: 100%;
+
+}
+
+.main-thread2{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: #E7E7E8 3px solid;
+}
+
+#first-pict-mob img {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+   
+    padding: 0;
+}
+
+#second-pict-mob img {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-right: #E7E7E8 1px solid;
+    border-top: #E7E7E8 1px solid;
+    border-bottom: #E7E7E8 1px solid;
+    margin: 0;
+    
+    padding: 0;
+}
+
+.comment-icons {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #536471;
+    text-align: start;
+    line-height: 16px;
+    font-family: "Schibsted Grotesk";
+}
+
+.comment-icons i {
+    padding-top: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2.5;
+
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.comment-icons span {
+    margin-left: -6px;
+}
+.comment-icons #comment-section {
+    margin-left: 15px;
+}
+#second-comment {
+    margin-left: 50px;
+}
+.halal-bottom {
+   margin-left: 15px;
+}
+#second-tweet {
+    width: 100%;
+}
+.hakimi-pic {
+    width: 75%;
+    height: 220px;
+    margin-left: 50px;
+    border-radius: 12px;
+}
+.thread-begin {
+    font-size: 14px;
+    
+}
+#yaba-tweet {
+    margin-top: -10px;
+    line-height: 1;
+}
+.d-name {
+    font-size: 15px;
+}
+
+.thread-vid {
+    border-radius: 20px;
+    margin-left: 50px;
+    border: #E7E7E8 1px solid;
+    width: 75%;
+    height: 320px;
+    border-radius: 12px;
+}
+
+
+#third-tweet {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-top: #E7E7E8 1px solid;
+    margin-right: 1px;
+font-size: 14px;
+
+}
+
+.more-tab {
+    width: 250px;
+  
+    
+
+}
+#tab {
+    left: 200px;
+    top: 150px;
+   
+}
+button .mt {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+#halal-username {
+
+    margin-left: 10px;
+    line-height: 0.8;
+    cursor: pointer;
+    padding-right: 0;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+   
+} 
+/*@media screen and (max-width: 575px) and (min-width: 498px) {
     #icon-section {
         width: 80px;
         height: 100%;
         overflow: hidden;
         text-align: center;
        
+    }
+    .hr1 {
+        width: 400px;
+    }
+    #top-tweet {
+
+        width: 60px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 12px;
+        margin-right: 30%;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #8ECDF7;
     }
     .stick {
         display: none;
@@ -2137,19 +3385,23 @@ display: none;
     .the-icon {
         width: 50px;
         border-radius: 100%;
-        /*margin-left: 60%;*/
-        margin-left: 0;
+        margin-left: 7px;
     }
     
     .fix {
         left: 80px;
-        width: 75%;
-        border-right: #E7E7E8 1px solid;
+        width: 80%;
+        
             }
-            #second-section {
+          
+     #second-section {
                margin-left: 80px;
-                width: 76%;
+               width: 80%;
                 font-size: 14px;
+            }
+          
+            .hr1 {
+                width: 400px;
             }
             #dont-show {
                 display: none;
@@ -2165,8 +3417,9 @@ display: none;
             i .fa-regular {
                 font-size: 14px;
             }  
-           #comment-section {
-            margin-left: 2px;
+           
+           .comment-icons {
+            font-size: 13px;
            }
            #show-this {
             color: #2aa1f1;
@@ -2175,19 +3428,39 @@ display: none;
             margin-left: -70%;
             padding-left: 0;
             padding-top: 10px;
+            
            
         }   
+        #show-this h4 {
+            font-size: 14px;
+        }
         .screenshot {
-            width: 200px;
+            width: 180px;
+            height: 220px;
         } 
         
-         
+         .hakimi-pic {
+            width: 350px;
+            height: 250px;
+           margin-left: 50px;
+           padding-left: 0;
+           border-radius: 12px; 
+         }
+         .thread-vid {
+            height: 350px;
+            border-radius: 12px;
+         }
         #comment-section {
-            margin-left: 5px;
+            margin-left: 10px;
            }
+           #second-comment {
+            margin-left: 35px;
+        }
            #tweet-home {
-           padding-left: 8%;
-             
+           padding-left: 12%;
+           width: 35px;
+           height: 47px;
+           margin-left: 10px;
          }  
          #sh-top {
             display: none;
@@ -2211,12 +3484,247 @@ display: none;
         }   
 
         #tweet-halal2 .tooltiptext {
-            top: 830px;
+            top: 730px;
             left: 15%; 
             font-size: 13px;
            
         }  
+        .thread-vid {
+            border-radius: 20px;
+            margin-left: 45px;
+            border: #E7E7E8 1px solid;
+           
+            width: 80%;
+        }   
+        .d-name {
+            margin-top: -7px; 
+            margin-left: 5px;  
+        }
+        #yaba-tweet {
+            margin-top: -15px;
+            margin-left: 5px;
+        }
+        .thread-begin {
+            margin-top: -7px;
+            margin-left: 5px;
+        }
+      .halal-bottom {
+        width: 30px;
+        height: 31px;
+      }  
+      .main-thread {
+            
+        margin-left: 30px;
+        padding-left: 40px;
+        
+    }  
+    #thread-end {
+        margin-left: -10px;
+    }
+   
+    
+
+
+}*/
+@media screen and (max-width: 600px) and (min-width: 575px) {
+    #icon-section {
+        width: 80px;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
        
+    }
+    .hr1 {
+        width: 400px;
+    }
+    #top-tweet {
+
+        width: 60px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 12px;
+        margin-right: 30%;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #8ECDF7;
+    }
+    .stick {
+        display: none;
+    }
+    .the-icon .text {
+        top: 10%;
+        left: 45%;
+    }
+    #explore {
+        top: 26%;
+        left: 45%;
+    }
+
+    #note {
+        top: 34%;
+        left: 27%;
+    }
+
+    #messages {
+        top: 41%;
+        left: 40%;
+    }
+
+    #veri {
+        top: 49%;
+        left: 46%;
+    }
+
+    #pro {
+        top: 57%;
+        left: 48%;
+    }
+
+    #more {
+        top: 65%;
+        left: 53%;
+    }
+    .the-icon {
+        width: 50px;
+        border-radius: 100%;
+        margin-left: 6px;
+    }
+    
+    .fix {
+        left: 80px;
+        width: 79%;
+        
+            }
+          
+     #second-section {
+               margin-left: 80px;
+                width: 80%;
+                font-size: 14px;
+               
+            }
+            .hr1 {
+                width: 400px;
+            }
+            #dont-show {
+                display: none;
+            }
+            .top-pic {
+                width: 35px;
+            }
+            
+            i .fa-solid {
+                font-size: 14px;
+            }
+            
+            i .fa-regular {
+                font-size: 14px;
+            }  
+           /*#comment-section {
+            margin-left: 10px;
+            
+           }*/
+           .comment-icons {
+            font-size: 13px;
+           }
+           #show-this {
+            color: #2aa1f1;
+            text-align: left;
+            cursor: pointer;
+            margin-left: -70%;
+            padding-left: 0;
+            padding-top: 10px;
+            
+           
+        }   
+        #show-this h4 {
+            font-size: 14px;
+        }
+        .screenshot {
+            width: 180px;
+            height: 220px;
+        } 
+        
+         .hakimi-pic {
+            width: 350px;
+            height: 250px;
+           margin-left: 50px;
+           padding-left: 0;
+            
+         }
+         .thread-vid {
+            height: 350px;
+         }
+        #comment-section {
+            margin-left: 10px;
+           }
+           #second-comment {
+            margin-left: 40px;
+        }
+           #tweet-home {
+           padding-left: 12%;
+           margin-left: 10px;
+           width: 35px;
+           height: 47px;
+         }  
+         #sh-top {
+            display: none;
+        }   
+        .tool1 .tool {
+        
+            right: 35px;
+            top: 10px;
+            
+        }  
+        #tweet-halal .tooltiptext {
+            top: 50%;
+            left: 15%;
+           
+        }
+        .more-tab {
+        
+            right: 20px;
+            top: 290px;
+        
+        }   
+
+        #tweet-halal2 .tooltiptext {
+            top: 730px;
+            left: 15%; 
+            font-size: 13px;
+           
+        }  
+        .thread-vid {
+            border-radius: 20px;
+            margin-left: 45px;
+            border: #E7E7E8 1px solid;
+           
+            width: 80%;
+        }   
+        .d-name {
+            margin-top: -7px; 
+            margin-left: 5px;  
+        }
+        #yaba-tweet {
+            margin-top: -15px;
+            margin-left: 5px;
+        }
+        .thread-begin {
+            margin-top: -7px;
+            margin-left: 5px;
+        }
+      .halal-bottom {
+        width: 30px;
+        height: 31px;
+      }  
+      .main-thread {
+            
+        margin-left: 30px;
+        padding-left: 40px;
+        
+    }  
+    #thread-end {
+        margin-left: -10px;
+    }
 }
 
 
@@ -2266,22 +3774,25 @@ display: none;
         top: 65%;
         left: 53%;
     }
-    .the-icon {
+    /*.the-icon {
         width: 50px;
         border-radius: 100%;
        
        
-    }
+    }*/
     
     .fix {
         left: 100px;
         width: 79.1%;
-        border-right: #E7E7E8 1px solid;
+       
             }
-            #second-section {
+    #second-section {
                margin-left: 100px;
                 width: 80%;
                 font-size: 14px;
+            }
+            .hr1 {
+                width: 420px;
             }
             #dont-show {
                 display: none;
@@ -2297,20 +3808,27 @@ display: none;
             i .fa-regular {
                 font-size: 14px;
             }  
-           #comment-section {
-            margin-left: 2px;
-           }
+          .comment-icons {
+            font-size: 14px;
+          }
+           #second-comment {
+            margin-left: 40px;
+        }
            #show-this {
             color: #2aa1f1;
             text-align: left;
             cursor: pointer;
-            margin-left: -73%;
+            margin-left: -85%;
             padding-left: 0;
-            padding-top: 10px;
+            padding-top: 15px;
            
         }   
+        #show-this h4 {
+            font-size: 14px;
+        }
         .screenshot {
             width: 200px;
+            height: 250px;
         } 
         
          #top-tweet {
@@ -2325,7 +3843,7 @@ display: none;
             background-color: #8ECDF7;
         }
         #comment-section {
-            margin-left: 10px;
+            margin-left: 12px;
            }  
            #sh-top {
             display: none;
@@ -2348,120 +3866,64 @@ display: none;
             top: 290px;
         
         }   
-
+        .the-icon {
+            width: 50px;
+            border-radius: 100%;
+           /* padding-right: 50%;*/
+           margin-left: 15px;
+            
+        }
+    
+       #tweet-home {
+        padding-left: 10px;
+        margin-left: 15px;
+        width: 40px;
+        height: 45px;
+       }
         #tweet-halal2 .tooltiptext {
             top: 830px;
             left: 15%; 
             font-size: 13px;
           
         }   
+        .hakimi-pic {
+       height: 300px;
+            width: 100%;
+            border-radius: 20px;
+            margin-left: 55px;
+            padding-right: 0;
+        }
+        .thread-vid {
+            border-radius: 20px;
+            margin-left: 50px;
+            border: #E7E7E8 1px solid;
+           
+            width: 80%;
+        }
+        .d-name {
+            margin-top: -7px; 
+           
+        }
+        #yaba-tweet {
+            margin-top: -15px;
+           
+        }
+        .thread-begin {
+            margin-top: -7px;
+          
+        }
+        .main-thread {
+            
+            margin-left: 30px;
+            padding-left: 40px;
+            
+        }  
+        #thread-end {
+            margin-left: -10px;
+        }
 }
 
- /*
-@media screen and (max-width: 675px) and (min-width: 600px) {
-    #icon-section {
-        width: 100px;
-        height: 100%;
-        overflow: hidden;
-        text-align: center;
-       
-    }
-    .the-icon .text {
-        top: 10%;
-        left: 45%;
-    }
-    #explore {
-        top: 26%;
-        left: 45%;
-    }
-
-    #note {
-        top: 34%;
-        left: 27%;
-    }
-
-    #messages {
-        top: 41%;
-        left: 40%;
-    }
-
-    #veri {
-        top: 49%;
-        left: 46%;
-    }
-
-    #pro {
-        top: 57%;
-        left: 48%;
-    }
-
-    #more {
-        top: 65%;
-        left: 53%;
-    }
-    .the-icon {
-       
-        width: 50px;
-        border-radius: 100%;
-       
-        
-    }
-    
-    .fix {
-        left: 15.5%;
-        width: 78.4%;
-        border-right: #E7E7E8 1px solid;
-            }
-            #second-section {
-               margin-left: 15%;
-                width: 80%;
-                font-size: 14px;
-            }
-            #dont-show {
-                display: none;
-            }
-            .top-pic {
-                width: 35px;
-            }
-            
-            i .fa-solid {
-                font-size: 14px;
-            }
-            
-            i .fa-regular {
-                font-size: 14px;
-            }  
-           #comment-section {
-            margin-left: 2px;
-           }
-           #show-this {
-            color: #2aa1f1;
-            text-align: left;
-            cursor: pointer;
-            margin-left: -73%;
-            padding-left: 0;
-            padding-top: 10px;
-           
-        }   
-        .screenshot {
-            width: 200px;
-        } 
-        
-         #top-tweet {
-
-            width: 70px;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 15px;
-            margin-right: 30%;
-            margin-bottom: 10px;
-            color: #fff;
-            background-color: #8ECDF7;
-        }
-        #comment-section {
-            margin-left: 10px;
-           } 
-}*/
+ 
 
 
 
@@ -2471,16 +3933,23 @@ display: none;
         height: 100%;
         overflow: hidden;
         text-align: center;
+        overflow-y: scroll;
        
     }
     .stick {
         display: none;
     }
+    #top-tweet {
+
+        width: 80px;
+        height: 35px;
+    }
     .fix {
 left: 15%;
-width: 538px;
-border-right: #E7E7E8 1px solid;
+width: 544px;
+
     }
+    
     #second-section {
        margin-left: 14%;
         width: 571.54px;
@@ -2494,22 +3963,22 @@ border-right: #E7E7E8 1px solid;
     }
     #explore {
         top: 26%;
-        left: 45%;
+        left: 36%;
     }
 
     #note {
         top: 34%;
-        left: 27%;
+        left: 25%;
     }
 
     #messages {
         top: 41%;
-        left: 43%;
+        left: 30%;
     }
 
     #veri {
         top: 49%;
-        left: 46%;
+        left: 38%;
     }
 
     #pro {
@@ -2526,11 +3995,17 @@ border-right: #E7E7E8 1px solid;
     .the-icon {
         width: 50px;
         border-radius: 100%;
-        padding-right: 50%;
+       /* padding-right: 50%;*/
+       margin-left: 8px;
         
     }
 
-   
+   #tweet-home {
+    width: 30px;
+        height: 45px;
+    margin-left: 15px;
+    padding-left: 0;
+   }
 
     .thread-vid {
         border-radius: 20px;
@@ -2567,11 +4042,12 @@ border-right: #E7E7E8 1px solid;
         color: #2aa1f1;
         text-align: left;
         cursor: pointer;
-        margin-left: -70%;
+        margin-left: -90%;
         padding-left: 0;
-        padding-top: 10px;
+        padding-top: 13px;
        
     }
+   
     .more-tab {
         
         right: 20px;
@@ -2583,7 +4059,7 @@ border-right: #E7E7E8 1px solid;
     } 
 
     .top-pic {
-        width: 35px;
+        width: 45px;
     }
     #tweet-leaf {
         display: block;
@@ -2604,7 +4080,46 @@ border-right: #E7E7E8 1px solid;
         left: 15%; 
         font-size: 13px;
       
-    }   
+    }  
+    .hakimi-pic {
+       
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 60px;
+        padding-right: 0;
+        height: 350px;
+    }
+    #second-comment {
+        margin-left: 40px;
+    }  
+    .thread-vid {
+        border-radius: 20px;
+        margin-left: 60px;
+        border: #E7E7E8 1px solid;
+       
+        width: 80%;
+    }
+    .d-name {
+        margin-top: -7px; 
+         
+    }
+    #yaba-tweet {
+        margin-top: -15px;
+       
+    }
+    .thread-begin {
+        margin-top: -5px;
+       
+    }
+    .main-thread {
+        
+        margin-left: 30px;
+        padding-left: 40px;
+        
+    }  
+    .halal-bottom {
+        margin-left: -10px;
+    }
 }
 
 
@@ -2618,9 +4133,16 @@ border-right: #E7E7E8 1px solid;
     .fix {
         width: 74%;
         left: 120px;
-        border-right: #E7E7E8 1px solid;
+       
     }
+    .hr1 {
+        width: 500px;
+    }
+    #top-tweet {
 
+        width: 80px;
+        height: 35px;
+    }
     #icon-section {
         width: 120px;
         height: 100%;
@@ -2634,7 +4156,7 @@ border-right: #E7E7E8 1px solid;
     .the-icon {
         width: 50px;
         border-radius: 100%;
-        /*margin-left: 60%;*/
+      margin-left: 25px;
         
     }
     .the-icon .text {
@@ -2675,7 +4197,7 @@ border-right: #E7E7E8 1px solid;
         color: #2aa1f1;
         text-align: left;
         cursor: pointer;
-        margin-left: -70%;
+        margin-left: -90%;
         padding-left: 0;
         padding-top: 10px;
        
@@ -2689,7 +4211,7 @@ border-right: #E7E7E8 1px solid;
     }
 
     .top-pic {
-        width: 40px;
+        width: 45px;
     }
     #tweet-halal .tooltiptext {
         top: 53%;
@@ -2714,11 +4236,59 @@ border-right: #E7E7E8 1px solid;
         top: 12px;
         
     }
+    .hakimi-pic {
+       
+      
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 55px;
+        padding-right: 0;
+    }
+    #second-comment {
+        margin-left: 50px;
+    }
+    .comment-icons {
+        margin-left: 0;
+    }
+    .thread-vid {
+        border-radius: 20px;
+        margin-left: 55px;
+        border: #E7E7E8 1px solid;
+       
+        width: 80%;
+    }
+    .d-name {
+        margin-top: -7px; 
+        margin-left: 5px; 
+    }
+    #yaba-tweet {
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    .thread-begin {
+        margin-top: -5px;
+       margin-left: 5px;
+    }
+    .main-thread {
+        
+        margin-left: 35px;
+        padding-left: 40px;
+        
+    }  
+    .halal-bottom {
+        margin-left: -5px;
+    }
+    #tweet-home {
+        width: 30px;
+            height: 45px;
+       margin-left: 25px;
+        padding-left: 0;
+       }
 }
 
 
 /*laptop*/
-@media screen and (max-width: 1290px) and (min-width: 1125px) {
+@media screen and (max-width: 1278px) and (min-width: 1125px) {
     #icon-section {
         width: 18%;
         height: 100%;
@@ -2727,6 +4297,7 @@ border-right: #E7E7E8 1px solid;
         text-align: center;
        overflow-y: scroll;
     }
+  
     .stick {
         display: inline;
        
@@ -2759,14 +4330,21 @@ border-right: #E7E7E8 1px solid;
         border-left: #E7E7E8 1px solid;
     }
     .fix {
-        width: 545px;
+        width: 543px;
         left: 18.9%;
         border-right: #E7E7E8 1px solid;
-        border-left: #E7E7E8 1px solid;
         font-size: 15px;
+        padding: 0;
+        border-right: none;
     }
+    .top-home {
+        margin-top: 0;
+        width: 575px;
+        border: none;
+       
+       }
     .top-pic {
-        width: 40px;
+        width: 45px;
       
     }
     .all-part {
@@ -2825,16 +4403,18 @@ border-right: #E7E7E8 1px solid;
     .hakimi-pic {
         width: 230px;
        height: 320px;
-    
+    padding-left: 0;
     }
     #tweet-home {
-      
-       padding-left: 60%; 
+        width: 30px;
+        height: 45px; 
+       padding-left: 0; 
+       margin-left: 60%;
      }
 
      #sh-top {
         display: inline;
-       
+       margin-left: 20px;
     }
 
     .fix-2 {
@@ -2918,16 +4498,52 @@ border-right: #E7E7E8 1px solid;
 }
 
 
+.hakimi-pic {
+       
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 75px;
+    padding-right: 0;
+}
 
-
-
+#second-comment {
+    margin-left: 50px;
+}
+.thread-vid {
+    border-radius: 20px;
+    margin-left: 70px;
+    border: #E7E7E8 1px solid;
+   
+    width: 80%;
+}
+.d-name {
+    margin-top: -7px; 
+     
+}
+#yaba-tweet {
+    margin-top: -15px;
+   
+}
+.thread-begin {
+    margin-top: -5px;
+   
+}
+.main-thread {
+    
+    margin-left: 30px;
+    padding-left: 40px;
+    
+}  
+.halal-bottom {
+    margin-left: -10px;
+}
 }
 
 
 
 
 
-@media screen and (max-width: 1125px) and (min-width: 1025px) {
+@media screen and (max-width: 1125px) and (min-width: 1045px) {
     #icon-section {
         width: 12%;
         height: 100%;
@@ -2935,6 +4551,11 @@ border-right: #E7E7E8 1px solid;
         overflow: hidden;
         text-align: center;
        overflow-y: scroll;
+    }
+    #whole-search {
+      
+        padding-top: 120px;
+        height: 100%;
     }
     .stick {
         display: inline;
@@ -2953,13 +4574,14 @@ border-right: #E7E7E8 1px solid;
     }
     #second-section {
         width: 570px;
-        margin-left: 11.8%;
+        margin-left: 12.8%;
         border-right: #E7E7E8 1px solid;
+        border-left: #E7E7E8 1px solid;
     }
     .fix {
-        width: 545px;
-        left: 12%;
-        border-right: #E7E7E8 1px solid;
+        width: 543px;
+        left: 13.2%;
+       
         font-size: 15px;
     }
     .top-pic {
@@ -2980,8 +4602,8 @@ border-right: #E7E7E8 1px solid;
     .the-icon {
         width: 50px;
         border-radius: 100%;
-  margin-right: 6%;
-  margin-left: ;
+ margin-left: 25%;
+ 
   
         
     }
@@ -3025,13 +4647,15 @@ border-right: #E7E7E8 1px solid;
     
     }
     #tweet-home {
-      
-       padding-left: 0; 
+        width: 30px;
+        height: 45px; 
+       padding-left: 0;
+       margin-left: 5px; 
      }
 
      #sh-top {
         display: inline;
-       
+       margin-left: 20px;
     }
 
     .fix-2 {
@@ -3090,16 +4714,60 @@ border-right: #E7E7E8 1px solid;
     font-size: 15px;
 }
 
-
+.hakimi-pic {
+       
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 75px;
+    padding-right: 0;
 }
-@media screen and (max-width: 1025px) and (min-width: 1015px) {
+#second-comment {
+    margin-left: 50px;
+}
+.thread-vid {
+    border-radius: 20px;
+    margin-left: 70px;
+    border: #E7E7E8 1px solid;
+   
+    width: 80%;
+}
+.d-name {
+    margin-top: -7px; 
+     
+}
+#yaba-tweet {
+    margin-top: -15px;
+   
+}
+.thread-begin {
+    margin-top: -5px;
+   
+}
+.main-thread {
+    
+    margin-left: 30px;
+    padding-left: 40px;
+    
+}  
+.halal-bottom {
+    margin-left: -10px;
+}
+}
+
+
+@media screen and (max-width: 1045px) and (min-width: 1025px) {
     #icon-section {
         width: 8.8%;
         height: 100%;
        
         overflow: hidden;
         text-align: center;
-       overflow-y: scroll;
+      /* overflow-y: scroll;*/
+    }
+    #whole-search {
+      
+        padding-top: 120px;
+        height: 100%;
     }
     .stick {
         display: inline;
@@ -3118,13 +4786,13 @@ border-right: #E7E7E8 1px solid;
     }
     #second-section {
         width: 570px;
-        margin-left: 8.2%;
+        margin-left: 8.5%;
         border-right: #E7E7E8 1px solid;
     }
     .fix {
         width: 543px;
-        left: 8.7%;
-        border-right: #E7E7E8 1px solid;
+        left: 8.9%;
+       
         font-size: 15px;
     }
     .top-pic {
@@ -3145,7 +4813,7 @@ border-right: #E7E7E8 1px solid;
     .the-icon {
         width: 50px;
         border-radius: 100%;
-    margin-left: 0;
+    margin-left: 8px;
     margin-right: 0;
         
     }
@@ -3189,13 +4857,16 @@ border-right: #E7E7E8 1px solid;
     
     }
     #tweet-home {
-       padding-left: 30%;
-        
+       padding-left: 0;
+       margin-left: px;
+       width: 30px;
+                height: 45px; 
      }
 
      #sh-top {
         display: inline;
         width: 350px;
+        margin-left: 15px;
     }
 
     .fix-2 {
@@ -3257,27 +4928,73 @@ border-right: #E7E7E8 1px solid;
     top: 840px;
     left: 10%; 
 }
-
+.hakimi-pic {
+       
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 75px;
+    padding-right: 0;
+}
+#second-comment {
+    margin-left: 50px;
+}
+.thread-vid {
+    border-radius: 20px;
+    margin-left: 70px;
+    border: #E7E7E8 1px solid;
+   
+    width: 80%;
+}
+.d-name {
+    margin-top: -7px; 
+     
+}
+#yaba-tweet {
+    margin-top: -15px;
+   
+}
+.thread-begin {
+    margin-top: -5px;
+   
+}
+.main-thread {
+    
+    margin-left: 30px;
+    padding-left: 40px;
+    
+}  
+.halal-bottom {
+    margin-left: -10px;
+}
 }
 
 
 
-@media screen and (max-width: 1015px) and (min-width: 800px) {
+@media screen and (max-width: 1025px) and (min-width: 800px) {
     #second-section {
-        width: 610px;
-        margin-left: 18.8%;
+        width: 650px;
+        margin-left: 16.4%;
         border-right: #E7E7E8 1px solid;
+        padding-left: 10px;
+    }
+    #whole-search {
+      
+        padding-top: 120px;
+        height: 100%;
     }
     .fix {
-        width: 574px;
-        left: 20%;
-        border-right: #E7E7E8 1px solid;
+        width: 613px;
+        left: 18.1%;
+      
     }
     .the-icon {
         width: 50px;
         border-radius: 100%;
-       /* margin-left: 60%;*/
+      
         
+    }
+    .hr1 {
+        width: 510px;
     }
     .tool1 .tool {
         
@@ -3285,6 +5002,7 @@ border-right: #E7E7E8 1px solid;
         top: 4.5%;
         
     }
+
     #tweet-halal .tooltiptext {
         top: 53%;
         left: 10%;
@@ -3300,11 +5018,11 @@ border-right: #E7E7E8 1px solid;
     }
    
     #icon-section {
-        width: 20%;
+        width: 18%;
         height: 100%;
         overflow: hidden;
         text-align: center;
-       
+       overflow-y: scroll;
     }
     .the-icon {
         width: 50px;
@@ -3314,9 +5032,12 @@ border-right: #E7E7E8 1px solid;
     }
 
     #tweet-home {
-        padding-left: 75px;
-        
+       padding-left: 0;
+       margin-left: 60%;
+     width: 30px;
+                height: 45px;     
     }
+    
     .the-icon .text {
         visibility: hidden;
         font-size: 12px;
@@ -3383,20 +5104,72 @@ border-right: #E7E7E8 1px solid;
         padding-top: 10px;
        
     }
+    .show-tweet p {
+        font-size: 15px;
+        font-weight: 450;
+    }
+    #top-tweet {
+
+        width: 80px;
+        height: 35px;
+    }
     #sh-top {
         display: none;
     }
     .stick {
         display: none;
     }
+    .hakimi-pic {
+       height: 450px;
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 65px;
+        padding-right: 0;
+    } 
+    #second-comment {
+        margin-left: 50px;
+    }
+    #comment-section i {
+        font-size: 18px;
+    }
+    .thread-vid {
+        border-radius: 20px;
+        margin-left: 55px;
+        border: #E7E7E8 1px solid;
+       
+        width: 80%;
+    }
+    .d-name {
+        margin-top: -7px; 
+        margin-left: 5px; 
+    }
+    #yaba-tweet {
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    .thread-begin {
+        margin-top: -5px;
+       margin-left: 5px;
+    }
+    .main-thread {
+        
+        margin-left: 35px;
+        padding-left: 40px;
+        
+    }  
+    .halal-bottom {
+        margin-left: -5px;
+    } 
 }
 
 
 
 
 
-@media screen and (max-width: 1290px) and (min-width: 501px) {
-
+@media screen and (max-width: 1278px) and (min-width: 500px) {
+#tweet-home {
+    font-size: 30px;
+}
     .the-icon .text {
         visibility: hidden;
         font-size: 10px;
@@ -3409,7 +5182,7 @@ border-right: #E7E7E8 1px solid;
         color: #fff;
         z-index: 1;
         top: 19%;
-        /*left: 61%;*/
+        
         padding: 1px 2px;
         transition-delay: 600ms;
 
@@ -3426,49 +5199,6 @@ border-right: #E7E7E8 1px solid;
        
     
     }
-/*
-    #explore {
-        top: 27%;
-        left: 57%;
-    }
-
-    #note {
-        top: 35%;
-        left: 52%;
-    }
-
-    #messages {
-        top: 43%;
-        left: 57%;
-    }
-
-    #veri {
-        top: 51%;
-        left: 58%;
-    }
-
-    #pro {
-        top: 60%;
-    }
-
-    #more {
-        top: 68%;
-        left: 63%;
-    }
-
-   /* #icon-section {
-        width: 20%;
-        height: 100%;
-        overflow: hidden;
-        text-align: center;
-       
-    }*/
-
-    /*#tweet-leaf {
-        display: block;
-       top: 81%;
-       
-    }*/
 
    
 
@@ -3480,42 +5210,21 @@ border-right: #E7E7E8 1px solid;
         display: none;
     }
 
-   /* #sh-top {
-        display: none;
-    }*/
-
-    /*#second-section {
-        width: 70%;
-        margin-left: 20%;
-        border-right: #E7E7E8 1px solid;
-    }**/
+   
     #for-fol {
         border-right: none;
     }
 .search-icons span {
   margin: -4px;
 }
-    /**.fix {
-        left: 20%;
-        width: 67%;
-    }**/
+    
 
     .carrying-all {
-        margin-top: 0;
+        margin-top: 50px;
        
     }
 
-    /*.the-icon {
-        width: 50px;
-        border-radius: 100%;
-        margin-left: 60%;
-        
-    }
-
-    #tweet-home {
-        padding-left: 75px;
-        
-    }*/
+    
 
     #bookmark {
         display: none;
@@ -3540,9 +5249,7 @@ border-right: #E7E7E8 1px solid;
     display: inline;
 }
 
-    /*.stick {
-        display: none;
-    }*/
+    
 
     #bot {
 
@@ -3562,9 +5269,9 @@ border-right: #E7E7E8 1px solid;
 
     #leaf {
         display: inline-block;
-        width: 115px;
-margin-left: -40px;
-margin-top: -5px;
+        width: 55px;
+margin-left: -10px;
+margin-top: 20px;
 z-index: 1;
     }
     
@@ -3580,9 +5287,9 @@ z-index: 1;
        margin-right: 15%;
     }
 
-    #whole-search {
-        /*margin-top: -50px;*/
-        padding-top: 120px;
+   #whole-search {
+      
+        padding-top: 100px;
         height: 100%;
     }
 
@@ -3598,40 +5305,7 @@ z-index: 1;
         margin-left: 0;
     }
 
-    .hakimi-pic {
-       
-        width: 100%;
-        border-radius: 20px;
-        margin-left: 75px;
-        padding-right: 0;
-    }
-
-    #second-comment {
-        margin-left: 50px;
-    }
-
     
-
-    /*.top-pic {
-        width: 45px;
-    }*/
-
-    .thread-vid {
-        border-radius: 20px;
-        margin-left: 70px;
-        border: #E7E7E8 1px solid;
-       
-        width: 80%;
-    }
-
-    
-
-    /*.tool1 .tool {
-        
-        right: 7.7%;
-        top: 4.5%;
-        
-    }*/
     
     #halal-username {
 
@@ -3652,33 +5326,34 @@ z-index: 1;
     width: 100%;
    line-height: 1.3;
 }
-#top-tweet {
 
-    width: 80px;
-    height: 35px;
-}
+
 }
 
 
 
-@media screen and (max-width: 1500px) and (min-width: 1290px) {
+@media screen and (max-width: 1500px) and (min-width: 1278px) {
     #bot {
        
-        margin-top: 50px;
+        margin-top: 10px;
        
-    
     } 
+   
     #second-section {
-        width: 680px;
-        margin-left: 20%;
+        width: 650px;
+        margin-left: 19.5%;
         border-right: #E7E7E8 1px solid;
     }
     
     .fix {
-        width: 658px;
+        width: 625px;
         left: 20%;
-        border-right: #E7E7E8 1px solid;
+       top: 0;
+        background-color: #fff;
         font-size: 15px;
+        padding: 0;
+
+        border-right: none;
     }
     #icon-section {
         width: 20%;
@@ -3686,10 +5361,15 @@ z-index: 1;
         overflow: hidden;
         text-align: center;
        
+       
     } 
+    .hr1 {
+        width: 550px;
+       
+    }
     .username {
 
-
+margin-left: -20px;
      margin-right: 0;
         padding-top: 30px;
         color: #536471;
@@ -3697,6 +5377,112 @@ z-index: 1;
    
     
     } 
+    #tweet-home {
+       
+        width: 30px;
+        height: 45px;
+      margin-left: 30px;
+       padding-left: 0;
+    }
+    .bird {
+        text-align: left;
+    }
+    .stick {
+        position: fixed;
+        background-color: #fff;
+    
+        padding: 10px;
+        top: 575px;
+        width: 325px;
+        right: 20px;
+        border: #E7E7E8 0.8px solid;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+    .cont {
+        padding-left: 10px;
+        padding-top: 10px;
+      
+       }
+       .top-home {
+        margin-top: 0;
+        width: 665px;
+        border: none;
+       
+       }
+       .thread-begin {
+        margin-top: -5px;
+       }
+       #yaba-tweet {
+        margin-top: -10px;
+        line-height: 1.3;
+       }
+       #for-fol {
+       
+       }
+       #tweet-halal .tooltiptext {
+        top: 325px;
+        left: 20%;
+      
+    } 
+    #tweet-halal2 .tooltiptext {
+        top: 840px;
+        left: 10%; 
+    }
+   .more-tab {
+     right: 350px;
+    top: 310px;
+
+}
+
+#second-more {
+    top: 820px;
+
+}
+}
+@media screen and (max-width: 1800px) and (min-width: 1500px) {
+    #bot {
+       
+        margin-top: 50px;
+       
+    
+    } 
+    #second-section {
+        width: 720px;
+        margin-left: 320px;
+        border-right: #E7E7E8 1px solid;
+    }
+    
+    .fix {
+        width: 698px;
+        left: 320px;
+        border-right: #E7E7E8 1px solid;
+        font-size: 15px;
+    }
+    #icon-section {
+        width: 320px;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+       
+    } 
+    .the-icon {
+        margin-left: 40px;
+    }
+    #tweet-home {
+        margin-left: 20px;
+    }
+    .username {
+
+        margin-left: -60px;
+        padding-top: 30px;
+        color: #536471;
+        opacity: #0f1419;
+   
+    
+    } 
+   
     #tweet-home {
         font-size: 25px;
        
@@ -3719,13 +5505,29 @@ z-index: 1;
         font-weight: 600;
         border-radius: 20px;
     }
+    
     .cont {
         padding-left: 10px;
         padding-top: 10px;
-       }
+      
+       }  
+      
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1290px) {
-    
-}
+/*height*/
+@media screen and (max-height: 800px) and (min-height: 600px){
+    .stick {  
+        top: 94%; 
+    }   
 
+}
+@media screen and (max-height: 600px) and (min-height: 440px) {
+    .stick {  
+        top: 92%;  
+    }     
+}      
+@media screen and (max-height: 440px) and (min-height: 300px) {
+    .stick {
+        top: 90%;
+    }      
+}      
